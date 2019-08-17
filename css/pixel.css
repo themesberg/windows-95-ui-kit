@@ -4684,10 +4684,6 @@ fieldset:disabled a.btn {
     margin-top: 0.5rem;
 }
 
-.border-dark {
-    border: 2px solid #0A0A0A;
-}
-
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
@@ -9256,10 +9252,6 @@ button.bg-gray-800:focus {
 
 .border-light {
     border-color: #dde1ed !important;
-}
-
-.border-dark {
-    border-color: #2A354F !important;
 }
 
 .border-default {
@@ -25619,8 +25611,12 @@ button.section-black:focus {
     border: 1px dotted #000;
 }
 
-.btn:hover {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07);
+.border-dark {
+    border: 2px solid #0A0A0A !important;
+}
+
+.border-dark-lg {
+    border: 3px solid #0A0A0A !important;
 }
 
 .btn.btn-pill {
@@ -25722,7 +25718,7 @@ button.section-black:focus {
     padding: 0;
 }
 
-.btn-icon-onlya {
+.btn-icon-only a {
     line-height: 2.5;
 }
 
@@ -25740,13 +25736,13 @@ button.section-black:focus {
 .btn-primary {
     color: #000;
     background-color: #c0c0c0;
-    border-color: #c0c0c0;
+    border-color: #a0a0a0;
 }
 
 .btn-primary:hover {
     color: #000;
     background-color: #c0c0c0;
-    border-color: #c0c0c0;
+    border-color: #a0a0a0;
 }
 
 .btn-primary:focus,
