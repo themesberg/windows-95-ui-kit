@@ -2789,9 +2789,10 @@ textarea.form-control.is-invalid {
 }
 
 .btn {
+    position: relative;
     display: inline-block;
     font-weight: 400;
-    color: #697992;
+    color: #000;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -2800,8 +2801,8 @@ textarea.form-control.is-invalid {
     user-select: none;
     background-color: transparent;
     border: 0.0625rem solid transparent;
-    padding: 0.55rem 0.95rem;
-    font-size: 1rem;
+    padding: 0.5rem 2.5rem;
+    font-size: .7rem;
     line-height: 1.5;
     border-radius: 0.125rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2830,30 +2831,20 @@ textarea.form-control.is-invalid {
     box-shadow: none;
 }
 
-.btn:not(:disabled):not(.disabled):active,
-.btn:not(:disabled):not(.disabled).active {
-    box-shadow: none;
-}
-
-.btn:not(:disabled):not(.disabled):active:focus,
-.btn:not(:disabled):not(.disabled).active:focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07);
-}
-
 a.btn.disabled,
 fieldset:disabled a.btn {
     pointer-events: none;
 }
 
 .btn-primary {
-    color: #ffffff;
+    color: #000;
     background-color: #c0c0c0;
     border-color: #c0c0c0;
     box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07);
 }
 
 .btn-primary:hover {
-    color: #ffffff;
+    color: #000;
     background-color: #113c63;
     border-color: #0f3559;
 }
@@ -2865,7 +2856,7 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    color: #ffffff;
+    color: #000;
     background-color: #c0c0c0;
     border-color: #c0c0c0;
 }
@@ -2873,7 +2864,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
-    color: #ffffff;
+    color: #000;
     background-color: #0f3559;
     border-color: #0e2f4e;
 }
@@ -4678,7 +4669,7 @@ fieldset:disabled a.btn {
 
 .btn-sm,
 .btn-group-sm>.btn {
-    padding: 0.25rem 0.5rem;
+    padding: 0.3rem 2rem;
     font-size: 0.875rem;
     line-height: 1.5;
     border-radius: 0.125rem;
@@ -4691,6 +4682,10 @@ fieldset:disabled a.btn {
 
 .btn-block+.btn-block {
     margin-top: 0.5rem;
+}
+
+.border-dark {
+    border: 2px solid #0A0A0A;
 }
 
 input[type="submit"].btn-block,
@@ -25588,8 +25583,40 @@ button.section-black:focus {
     position: relative;
     transition: all 0.2s ease;
     letter-spacing: 0.025em;
-    font-size: 1rem;
+    font-size: .7rem;
     border-radius: 0.125rem;
+}
+
+.btn:before,
+.btn:after {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    display: block;
+    background: transparent;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+
+.btn:before {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid #858585;
+    border-bottom: 2px solid #858585;
+}
+
+.btn:not(:disabled):not(.disabled):active:before,
+.btn:not(:disabled):not(.disabled):active:focus:before {
+    border-color: transparent;
+    color: #000;
+}
+
+.btn:not(:disabled):not(.disabled):active .btn-text,
+.btn:not(:disabled):not(.disabled):active:focus .btn-text {
+    border: 1px dotted #000;
 }
 
 .btn:hover {
@@ -25711,13 +25738,13 @@ button.section-black:focus {
 }
 
 .btn-primary {
-    color: #ffffff;
+    color: #000;
     background-color: #c0c0c0;
     border-color: #c0c0c0;
 }
 
 .btn-primary:hover {
-    color: #ffffff;
+    color: #000;
     background-color: #c0c0c0;
     border-color: #c0c0c0;
 }
@@ -25729,7 +25756,7 @@ button.section-black:focus {
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    color: #ffffff;
+    color: #000;
     background-color: #c0c0c0;
     border-color: #c0c0c0;
 }
@@ -25737,7 +25764,7 @@ button.section-black:focus {
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
-    color: #ffffff;
+    color: #000;
     background-color: #c0c0c0;
     border-color: #c0c0c0;
 }
@@ -29601,7 +29628,7 @@ ul li {
     font-family: "w-95-sans-serif", sans-serif;
     font-size: 1rem;
     font-weight: 300;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 a,
