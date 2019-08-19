@@ -26035,6 +26035,7 @@ button.section-black:focus {
 .btn-dark:not(:disabled):not(.disabled).active:focus,
 .show>.btn-dark.dropdown-toggle:focus {
     box-shadow: none;
+    outline: 0;
 }
 
 .btn-default {
@@ -26049,10 +26050,6 @@ button.section-black:focus {
     border-color: #c0c0c0;
 }
 
-.btn-default:focus,
-.btn-default.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(23, 79, 132, 0.5);
-}
 
 .btn-default.disabled,
 .btn-default:disabled {
@@ -27257,7 +27254,349 @@ textarea[resize="horizontal"] {
 
 /**
  * = Icons
+ * Credit for the awesome W95 icons https://artage.io/en/icon-packs/original-windows-95-icons?li=all
+ * And the sprite generator https://www.toptal.com/developers/css/sprite-generator/
  */
+
+.w95-file-alert{
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -10px -10px;
+}
+
+.w95-floppy {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -62px -10px;
+}
+
+.w95-printer {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -10px -62px;
+}
+
+.w95-blocks {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -62px -62px;
+}
+
+.bg-artage_io_48123_1566219173 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -114px -10px;
+}
+
+.bg-artage_io_48124_1566219159 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -114px -62px;
+}
+
+.bg-artage_io_48125_1566219157 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -10px -114px;
+}
+
+.bg-artage_io_48126_1566219154 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -62px -114px;
+}
+
+.bg-artage_io_48127_1566219142 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -114px -114px;
+}
+
+.bg-artage_io_48128_1566219144 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -166px -10px;
+}
+
+.bg-artage_io_48129_1566219146 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -166px -62px;
+}
+
+.bg-artage_io_48130_1566219149 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -166px -114px;
+}
+
+.bg-artage_io_48131_1566219151 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -10px -166px;
+}
+
+.bg-artage_io_48132_1566219140 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -62px -166px;
+}
+
+.bg-artage_io_48133_1566219137 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -114px -166px;
+}
+
+.bg-artage_io_48134_1566219134 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -166px -166px;
+}
+
+.bg-artage_io_48135_1566219131 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -218px -10px;
+}
+
+.bg-artage_io_48136_1566219128 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -218px -62px;
+}
+
+.bg-artage_io_48137_1566219123 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -218px -114px;
+}
+
+.bg-artage_io_48138_1566219120 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -218px -166px;
+}
+
+.bg-artage_io_48139_1566219117 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -10px -218px;
+}
+
+.bg-artage_io_48140_1566219113 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -62px -218px;
+}
+
+.bg-artage_io_48141_1566219110 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -114px -218px;
+}
+
+.bg-artage_io_48142_1566219107 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -166px -218px;
+}
+
+.bg-artage_io_48143_1566219104 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -218px -218px;
+}
+
+.bg-artage_io_48144_1566219102 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -270px -10px;
+}
+
+.bg-artage_io_48145_1566219099 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -270px -62px;
+}
+
+.bg-artage_io_48146_1566219096 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -270px -114px;
+}
+
+.bg-artage_io_48147_1566219092 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -270px -166px;
+}
+
+.bg-artage_io_48148_1566219089 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -270px -218px;
+}
+
+.bg-artage_io_48149_1566219086 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -10px -270px;
+}
+
+.bg-artage_io_48150_1566219084 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -62px -270px;
+}
+
+.bg-artage_io_48151_1566219081 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -114px -270px;
+}
+
+.bg-artage_io_48152_1566219078 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -166px -270px;
+}
+
+.bg-artage_io_48153_1566219076 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -218px -270px;
+}
+
+.bg-artage_io_48154_1566219073 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -270px -270px;
+}
+
+.bg-artage_io_48155_1566219071 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -322px -10px;
+}
+
+.bg-artage_io_48156_1566219067 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -322px -62px;
+}
+
+.bg-artage_io_48157_1566219065 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -322px -114px;
+}
+
+.bg-artage_io_48158_1566219062 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -322px -166px;
+}
+
+.bg-artage_io_48159_1566219060 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -322px -218px;
+}
+
+.bg-artage_io_48160_1566219057 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -322px -270px;
+}
+
+.bg-artage_io_48161_1566219053 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -10px -322px;
+}
+
+.bg-artage_io_48162_1566219049 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -62px -322px;
+}
+
+.bg-artage_io_48163_1566219046 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -114px -322px;
+}
+
+.bg-artage_io_48164_1566219043 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -166px -322px;
+}
+
+.bg-artage_io_48165_1566219040 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -218px -322px;
+}
+
+.bg-artage_io_48166_1566219038 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -270px -322px;
+}
+
+.bg-artage_io_48167_1566219034 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -322px -322px;
+}
+
+.bg-artage_io_48168_1566219032 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -374px -10px;
+}
+
+.bg-artage_io_48169_1566219029 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -374px -62px;
+}
+
+.bg-artage_io_48170_1566219027 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -374px -114px;
+}
+
+.bg-artage_io_48171_1566219024 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -374px -166px;
+}
+
+.bg-artage_io_48172_1566219021 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -374px -218px;
+}
+
+.bg-artage_io_48173_1566219018 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -374px -270px;
+}
+
+.bg-artage_io_48174_1566219016 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -374px -322px;
+}
+
+.bg-artage_io_48175_1566219013 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -10px -374px;
+}
+
+.bg-artage_io_48176_1566219010 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -62px -374px;
+}
+
+.bg-artage_io_48177_1566219004 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -114px -374px;
+}
+
+.bg-artage_io_48178_1566219001 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -166px -374px;
+}
+
+.bg-artage_io_48179_1566218998 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -218px -374px;
+}
+
+.bg-artage_io_48180_1566218995 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -270px -374px;
+}
+
+.bg-artage_io_48181_1566218992 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -322px -374px;
+}
+
+.bg-artage_io_48182_1566218982 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -374px -374px;
+}
+
+.bg-artage_io_48183_1566218979 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -426px -10px;
+}
+
+.bg-artage_io_48185_1566218970 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -426px -62px;
+}
+
+.bg-artage_io_48184_1566218976 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -426px -114px;
+}
+
+.bg-artage_io_48186_1566218965 {
+    width: 32px; height: 32px;
+    background: url('../img/w95-icons-sprite.png') -426px -166px;
+}
 
 .icon {
     text-align: center;
