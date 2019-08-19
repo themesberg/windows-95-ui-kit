@@ -4670,7 +4670,7 @@ fieldset:disabled a.btn {
 .btn-sm,
 .btn-group-sm>.btn {
     padding: 0.3rem 2rem;
-    font-size: 0.875rem;
+    font-size: 0.675rem;
     line-height: 1.5;
     border-radius: 0.125rem;
 }
@@ -25643,26 +25643,27 @@ button.section-black:focus {
 
 .btn-xs,
 .btn-xs i {
-    font-size: 0.75rem !important;
+    font-size: 0.75rem ;
 }
 
 .btn-sm,
 .btn-group-sm>.btn,
 .btn-sm i,
 .btn-group-sm>.btn i {
-    font-size: 0.875rem !important;
+    font-size: 0.675rem;
 }
 
 .btn-md,
 .btn-md i {
-    font-size: 0.1rem !important;
+    font-size: 0.1rem;
 }
 
 .btn-lg,
 .btn-group-lg>.btn,
 .btn-lg i,
 .btn-group-lg>.btn i {
-    font-size: 1.25rem !important;
+    font-size: 1rem;
+    padding: .6rem 2rem;
 }
 
 [class*="btn-outline-"] {
