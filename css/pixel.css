@@ -5306,9 +5306,10 @@ button.section-black:focus {
     position: relative;
     transition: all 0.2s ease;
     letter-spacing: 0.025em;
-    font-size: .7rem;
+    font-size: .6rem;
     border-radius: 0.125rem;
     padding: .6rem 2rem;
+    max-height: 37px;
 }
 
 .btn:before,
@@ -5382,8 +5383,9 @@ button.section-black:focus {
 .btn-group-sm>.btn,
 .btn-sm i,
 .btn-group-sm>.btn i {
-    font-size: 0.675rem;
+    font-size: 0.53rem;
     padding: .4rem 1.6rem;
+    max-height: 29px;
 }
 
 .btn-md,
@@ -5398,6 +5400,7 @@ button.section-black:focus {
 .btn-group-lg>.btn i {
     font-size: 1rem;
     padding: .6rem 2rem;
+    max-height: 43px;
 }
 
 [class*="btn-outline-"] {
@@ -5436,15 +5439,34 @@ button.section-black:focus {
 }
 
 .btn-icon {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
-.btn-icon .btn-inner-icon:first-of-type {
-    margin-right: .3rem;
+.btn-icon > .icon {
+    position: absolute;
+    left: 10px;
 }
 
-.btn-icon .btn-inner-icon:last-of-type {
-    margin-left: .3rem;
+.btn-icon > .btn-text {
+    position: relative;
+    left: 15px;
+}
+
+.btn-icon.btn-sm > .icon {
+    left: 5px;
+}
+
+.btn-icon.btn-sm > .btn-text {
+    left: 15px;
+}
+
+.btn-icon.btn-lg > .icon {
+    left: 10px;
+}
+
+.btn-icon.btn-lg > .btn-text {
+    left: 20px;
 }
 
 .btn-icon-only {
@@ -5482,7 +5504,7 @@ button.section-black:focus {
 
 .btn-primary:focus,
 .btn-primary.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(23, 79, 132, 0.5);
+    box-shadow: none
 }
 
 .btn-primary.disabled,
@@ -5520,7 +5542,7 @@ button.section-black:focus {
 
 .btn-secondary:focus,
 .btn-secondary.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(16, 171, 124, 0.5);
+    box-shadow: none;
 }
 
 .btn-secondary.disabled,
@@ -5558,7 +5580,7 @@ button.section-black:focus {
 
 .btn-success:focus,
 .btn-success.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(0, 191, 154, 0.5);
+    box-shadow: none;
 }
 
 .btn-success.disabled,
@@ -5596,7 +5618,7 @@ button.section-black:focus {
 
 .btn-info:focus,
 .btn-info.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(30, 144, 255, 0.5);
+    box-shadow: none;
 }
 
 .btn-info.disabled,
@@ -5634,7 +5656,7 @@ button.section-black:focus {
 
 .btn-warning:focus,
 .btn-warning.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(245, 183, 89, 0.5);
+    box-shadow: none;
 }
 
 .btn-warning.disabled,
@@ -5672,7 +5694,7 @@ button.section-black:focus {
 
 .btn-danger:focus,
 .btn-danger.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(250, 82, 82, 0.5);
+    box-shadow: none;
 }
 
 .btn-danger.disabled,
@@ -5710,7 +5732,7 @@ button.section-black:focus {
 
 .btn-light:focus,
 .btn-light.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(221, 225, 237, 0.5);
+    box-shadow: none;
 }
 
 .btn-light.disabled,
@@ -5748,7 +5770,7 @@ button.section-black:focus {
 
 .btn-dark:focus,
 .btn-dark.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(42, 53, 79, 0.5);
+    box-shadow: none;
 }
 
 .btn-dark.disabled,
@@ -5821,7 +5843,7 @@ button.section-black:focus {
 
 .btn-tertiary:focus,
 .btn-tertiary.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(255, 127, 102, 0.5);
+    box-shadow: none;
 }
 
 .btn-tertiary.disabled,
@@ -5859,7 +5881,7 @@ button.section-black:focus {
 
 .btn-white:focus,
 .btn-white.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(255, 255, 255, 0.5);
+    box-shadow: none;
 }
 
 .btn-white.disabled,
@@ -5897,7 +5919,7 @@ button.section-black:focus {
 
 .btn-gray:focus,
 .btn-gray.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(134, 154, 184, 0.5);
+    box-shadow: none;
 }
 
 .btn-gray.disabled,
@@ -5935,7 +5957,7 @@ button.section-black:focus {
 
 .btn-neutral:focus,
 .btn-neutral.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(255, 255, 255, 0.5);
+    box-shadow: none;
 }
 
 .btn-neutral.disabled,
@@ -5973,7 +5995,7 @@ button.section-black:focus {
 
 .btn-soft:focus,
 .btn-soft.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(239, 242, 245, 0.5);
+    box-shadow: none;
 }
 
 .btn-soft.disabled,
@@ -6011,7 +6033,7 @@ button.section-black:focus {
 
 .btn-black:focus,
 .btn-black.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(17, 17, 17, 0.5);
+    box-shadow: none;
 }
 
 .btn-black.disabled,
@@ -6049,7 +6071,7 @@ button.section-black:focus {
 
 .btn-purple:focus,
 .btn-purple.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(137, 101, 224, 0.5);
+    box-shadow: none;
 }
 
 .btn-purple.disabled,
@@ -6087,7 +6109,7 @@ button.section-black:focus {
 
 .btn-gray-100:focus,
 .btn-gray-100.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(239, 242, 245, 0.5);
+    box-shadow: none;
 }
 
 .btn-gray-100.disabled,
@@ -6125,7 +6147,7 @@ button.section-black:focus {
 
 .btn-gray-200:focus,
 .btn-gray-200.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(233, 236, 239, 0.5);
+    box-shadow: none;
 }
 
 .btn-gray-200.disabled,
@@ -6163,7 +6185,7 @@ button.section-black:focus {
 
 .btn-gray-300:focus,
 .btn-gray-300.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(221, 225, 237, 0.5);
+    box-shadow: none;
 }
 
 .btn-gray-300.disabled,
@@ -6201,7 +6223,7 @@ button.section-black:focus {
 
 .btn-gray-400:focus,
 .btn-gray-400.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(206, 212, 218, 0.5);
+    box-shadow: none;
 }
 
 .btn-gray-400.disabled,
@@ -6239,7 +6261,7 @@ button.section-black:focus {
 
 .btn-gray-500:focus,
 .btn-gray-500.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(173, 181, 189, 0.5);
+    box-shadow: none;
 }
 
 .btn-gray-500.disabled,
@@ -6277,7 +6299,7 @@ button.section-black:focus {
 
 .btn-gray-600:focus,
 .btn-gray-600.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(134, 154, 184, 0.5);
+    box-shadow: none;
 }
 
 .btn-gray-600.disabled,
@@ -6315,7 +6337,7 @@ button.section-black:focus {
 
 .btn-gray-700:focus,
 .btn-gray-700.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(105, 121, 146, 0.5);
+    box-shadow: none;
 }
 
 .btn-gray-700.disabled,
@@ -6353,7 +6375,7 @@ button.section-black:focus {
 
 .btn-gray-800:focus,
 .btn-gray-800.focus {
-    box-shadow: 0 0.125rem 0.25rem rgba(42, 53, 79, 0.07), 0 0 0 0.0625rem rgba(79, 96, 109, 0.5);
+    box-shadow: none;
 }
 
 .btn-gray-800.disabled,
@@ -7338,6 +7360,14 @@ textarea[resize="horizontal"] {
     -ms-justify-content: center;
     justify-content: center;
     -ms-flex-pack: center;
+}
+
+.icon-xs {
+    transform: scale(.6);
+}
+
+.icon-sm {
+    transform: scale(.7);
 }
 
 .icon i,
@@ -9795,6 +9825,11 @@ a:hover,
 .blockquote .blockquote-footer {
     font-size: 0.875rem;
     font-weight: 600;
+}
+
+.font-xsmall {
+    font-size: 0.575rem;
+    font-weight: 300;
 }
 
 .font-small {
