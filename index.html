@@ -497,25 +497,6 @@
                                 <span class="font-xsmall mt-2">.w95-cd</span>
                             </div>
                         </div>
-
-                        <!-- <div class="alert alert-primary" role="alert">
-                            <span class="alert-inner--text">This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</span>
-                        </div>
-                        <div class="alert alert-secondary" role="alert">
-                            <span class="alert-inner--text">This is a secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</span>
-                        </div>
-                        <div class="alert alert-success" role="alert">
-                            <span class="alert-inner--text">This is a success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</span>
-                        </div>
-                        <div class="alert alert-info" role="alert">
-                            <span class="alert-inner--text">This is a info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</span>
-                        </div>
-                        <div class="alert alert-warning" role="alert">
-                            <span class="alert-inner--text">This is a warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</span>
-                        </div>
-                        <div class="alert alert-danger" role="alert">
-                            <span class="alert-inner--text">This is a danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</span>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -525,15 +506,42 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="mt-5 mb-5 mt-md-0">
-                            <h4>Badges</h4>
+                            <h4 class="my-5">Navigation Tabs</h4>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Programs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Control Panel</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Documents</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Program Manager</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta voluptatem nam ut temporibus corporis dolorem dolores accusamus deserunt veniam eius maiores suscipit veritatis necessitatibus voluptatum incidunt repellendus eligendi, consequatur rem?</p>
+                                    <button class="btn btn-sm mr-2 btn-primary border-dark" type="button">
+                                        <span class="btn-text">Show Other Options</span>
+                                    </button>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur earum consequuntur accusamus reprehenderit quae sint, quia eligendi sed quidem neque omnis odit suscipit dolorum corrupti minima quas temporibus recusandae vel.</p>
+                                    <button class="btn btn-sm mr-2 btn-secondary border-dark" type="button">
+                                        <span class="btn-text">Show Other Options</span>
+                                    </button>
+                                </div>
+                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ad tempora, quam quisquam, neque possimus ducimus eligendi cumque ipsum autem nam magnam atque, ipsam sint inventore repellat iste sunt harum!</p>
+                                    <button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
+                                        <span class="btn-text">Show Other Options</span>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        <span class="badge badge-primary text-uppercase">Primary</span>
-                        <span class="badge badge-secondary text-uppercase">Secondary</span>
-                        <span class="badge badge-gray text-uppercase">Gray</span>
-                        <span class="badge badge-success text-uppercase">Success</span>
-                        <span class="badge badge-danger text-uppercase">Danger</span>
-                        <span class="badge badge-warning text-uppercase">Warning</span>
-                        <span class="badge badge-info text-uppercase">Info</span>
                     </div>
                 </div>
             </div>
