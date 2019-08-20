@@ -25,8 +25,9 @@
         <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark navbar-theme-secondary headroom">
             <div class="container position-relative">
                 <a class="navbar-brand mr-lg-5" href="./index.html">
-                    <img class="navbar-brand-dark" src="./img/brand/light.svg" alt="Logo light">
-                    <img class="navbar-brand-light" src="./img/brand/dark.svg" alt="Logo dark">
+                    <a href="index.html" class="d-flex align-items-center flex-column text-black">
+                        <span class="icon w95-windows"></span>
+                    </a>
                 </a>
                 <div class="navbar-collapse collapse" id="navbar_global">
                     <div class="navbar-collapse-header">
@@ -104,7 +105,7 @@
                             </a>
                         </li>
                     </ul>
-                    <a href="https://themesberg.com/product/pixel-lite-free-bootstrap-4-ui-kit" role="button" target="_blank" class="btn btn-primary border-dark ml-lg-3 animate-up-2">Free Download</a>
+                    <!-- <a href="https://themesberg.com/product/pixel-lite-free-bootstrap-4-ui-kit" role="button" target="_blank" class="btn btn-primary border-dark ml-lg-3 ">Free Download</a> -->
                     <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -117,9 +118,9 @@
         <section class="section section-lg bg-secondary text-white overflow-hidden z-2">
             <div class="container z-2">
                 <div class="row justify-content-center text-center pt-6 pt-md-5 pb-0 mb-2">
-                    <div class="col-lg-8 col-xl-8">
-                        <h1 class="display-3 font-weight-light mb-5"><span class="ml-3"></span>Windows 95</span><span class="pixel-lite-badge">UI Kit</span></h1>
-                        <p class="px-xl-5 mb-5">Tired of all the new design trends? Fly back in time and use this free Windows 95 User Interface Kit to create awesome websites.</p>
+                    <div class="col-lg-12 col-xl-10">
+                        <h1 class="display-3 font-weight-light mb-5"><span class="ml-3"></span>Windows 95</span><span class="pixel-lite-badge text-white">UI Kit</span></h1>
+                        <p class="px-xl-5 mb-5 lead">Tired of all the new design trends? Fly back in time and use this free Windows 95 User Interface Kit to create awesome websites.</p>
                         <a href="https://themesberg.com/product/pixel-lite-free-bootstrap-4-ui-kit" role="button" class="btn mr-2 mb-2 btn-primary border-dark">
                             <span class="btn-text">Free Download</span>
                         </a>
@@ -507,38 +508,40 @@
                     <div class="col-lg-12">
                         <div class="mt-5 mb-5 mt-md-0">
                             <h4 class="my-5">Navigation Tabs</h4>
-                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Programs</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Control Panel</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Documents</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Program Manager</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta voluptatem nam ut temporibus corporis dolorem dolores accusamus deserunt veniam eius maiores suscipit veritatis necessitatibus voluptatum incidunt repellendus eligendi, consequatur rem?</p>
-                                    <button class="btn btn-sm mr-2 btn-primary border-dark" type="button">
-                                        <span class="btn-text">Show Other Options</span>
-                                    </button>
-                                </div>
-                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur earum consequuntur accusamus reprehenderit quae sint, quia eligendi sed quidem neque omnis odit suscipit dolorum corrupti minima quas temporibus recusandae vel.</p>
-                                    <button class="btn btn-sm mr-2 btn-secondary border-dark" type="button">
-                                        <span class="btn-text">Show Other Options</span>
-                                    </button>
-                                </div>
-                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ad tempora, quam quisquam, neque possimus ducimus eligendi cumque ipsum autem nam magnam atque, ipsam sint inventore repellat iste sunt harum!</p>
-                                    <button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
-                                        <span class="btn-text">Show Other Options</span>
-                                    </button>
+                            <div class="p-5 bg-secondary">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Programs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Control Panel</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Documents</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Program Manager</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta voluptatem nam ut temporibus corporis dolorem dolores accusamus deserunt veniam eius maiores suscipit veritatis necessitatibus voluptatum incidunt repellendus eligendi, consequatur rem?</p>
+                                        <button class="btn btn-sm mr-2 btn-primary border-dark" type="button">
+                                            <span class="btn-text">Show Other Options</span>
+                                        </button>
+                                    </div>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur earum consequuntur accusamus reprehenderit quae sint, quia eligendi sed quidem neque omnis odit suscipit dolorum corrupti minima quas temporibus recusandae vel.</p>
+                                        <button class="btn btn-sm mr-2 btn-secondary border-dark" type="button">
+                                            <span class="btn-text">Show Other Options</span>
+                                        </button>
+                                    </div>
+                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ad tempora, quam quisquam, neque possimus ducimus eligendi cumque ipsum autem nam magnam atque, ipsam sint inventore repellat iste sunt harum!</p>
+                                        <button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
+                                            <span class="btn-text">Show Other Options</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1960,7 +1963,7 @@
                                     <tr>
                                         <th class="w-25"></th>
                                         <th class="py-4"><a href="https://themesberg.com/product/pixel-lite-free-bootstrap-4-ui-kit" role="button" target="_blank" class="btn border-dark font-weight-bold">Free download</a></th>
-                                        <th class="py-4"><a href="https://themesberg.com/preview/pixel-pro/html/components/all.html" role="button" target="_blank" class="btn btn-sm btn-primary font-weight-bold animate-up-2">Upgrade to PRO</a></th>
+                                        <th class="py-4"><a href="https://themesberg.com/preview/pixel-pro/html/components/all.html" role="button" target="_blank" class="btn btn-sm btn-primary font-weight-bold ">Upgrade to PRO</a></th>
                                     </tr>
                                 </tfoot>
                             </table>
