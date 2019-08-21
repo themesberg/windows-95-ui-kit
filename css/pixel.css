@@ -6069,45 +6069,8 @@ button.section-black:focus {
     box-shadow: none;
 }
 
-
 /**
- * = Breadcrumbs
- */
-
-.breadcrumb-item,
-.breadcrumb-item a {
-    color: #697992;
-    font-weight: 300;
-    font-size: 0.75rem;
-}
-
-@media (min-width: 576px) {
-    .breadcrumb-item,
-    .breadcrumb-item a {
-        font-size: 1rem;
-    }
-}
-
-.breadcrumb-item.active {
-    font-weight: 400;
-}
-
-.breadcrumb-item+.breadcrumb-item:before {
-    content: "\f101";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: .625rem;
-    color: #697992;
-}
-
-.breadcrumb-transparent {
-    background: transparent;
-    padding: 0;
-}
-
-
-/**
- * = Blog cards
+ * = Cards
  */
 
  .card {
@@ -9172,14 +9135,13 @@ ul li {
 
 a,
 .text-action {
-    color: #c0c0c0;
+    color: #000181;
     font-weight: 400;
-    transition: all 0.2s ease;
 }
 
 a:hover,
 .text-action:hover {
-    color: #0f3559;
+    color: #000181;
     cursor: pointer;
 }
 
