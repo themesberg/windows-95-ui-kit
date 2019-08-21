@@ -9149,10 +9149,8 @@ a:hover,
     margin-top: 3rem;
 }
 
-@media (max-width: 991.98px) {
-    .lead {
-        font-size: 1rem;
-    }
+.lead {
+    font-size: .9rem;
 }
 
 .text-italic {
