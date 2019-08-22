@@ -1010,7 +1010,9 @@
                     <div class="col-lg-12">
                         <div class="mt-5 mb-5 mt-md-0">
                             <h4 class="mb-5">Navbars</h4>
-                            <p>Use these navbars that look like the famous bar from Windows 95. You can change the color of the bar by adding the following modifier classes: .navbar-primary, .navbar-secondary, .navbar-tertiary.</p>
+                            <p>Use these navbars that look like the famous bar from Windows 95. You can change the color
+                                of the bar by adding the following modifier classes: .navbar-primary, .navbar-secondary,
+                                .navbar-tertiary.</p>
                         </div>
                         <div class="my-5">
                             <!-- Tab Nav -->
@@ -1182,53 +1184,153 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="mt-5 mb-5 mt-md-0">
-                            <h4 class="my-5">Tabs</h4>
-                            <div class="p-5 bg-secondary">
-                                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="../#home"
-                                            role="tab" aria-controls="home" aria-selected="true">Programs</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="../#profile"
-                                            role="tab" aria-controls="profile" aria-selected="false">Control Panel</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="../#contact"
-                                            role="tab" aria-controls="contact" aria-selected="false">Documents</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="../#contact"
-                                            role="tab" aria-controls="contact" aria-selected="false">Program Manager</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta voluptatem
-                                            nam ut temporibus corporis dolorem dolores accusamus deserunt veniam eius
-                                            maiores suscipit veritatis necessitatibus voluptatum incidunt repellendus
-                                            eligendi, consequatur rem?</p>
-                                        <button class="btn btn-sm mr-2 btn-primary border-dark" type="button">
-                                            <span class="btn-text">Show Other Options</span>
-                                        </button>
-                                    </div>
-                                    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur earum
-                                            consequuntur accusamus reprehenderit quae sint, quia eligendi sed quidem
-                                            neque omnis odit suscipit dolorum corrupti minima quas temporibus recusandae
-                                            vel.</p>
-                                        <button class="btn btn-sm mr-2 btn-secondary border-dark" type="button">
-                                            <span class="btn-text">Show Other Options</span>
-                                        </button>
-                                    </div>
-                                    <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ad tempora, quam
-                                            quisquam, neque possimus ducimus eligendi cumque ipsum autem nam magnam
-                                            atque, ipsam sint inventore repellat iste sunt harum!</p>
-                                        <button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
-                                            <span class="btn-text">Show Other Options</span>
-                                        </button>
+                            <h4 class="mb-5">Tabs</h4>
+                            <div class="my-5">
+                                <!-- Tab Nav -->
+                                <div class="nav-wrapper position-relative p-0">
+                                    <ul class="nav nav-tabs flex-column flex-md-row" id="tabs-tabs-content-1"
+                                        role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-tabs-1-tab"
+                                                data-toggle="tab" href="#tabs-tabs-1" role="tab"
+                                                aria-controls="tabs-tabs-1" aria-selected="true">Result</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-tabs-2-tab"
+                                                data-toggle="tab" href="#tabs-tabs-2" role="tab"
+                                                aria-controls="tabs-tabs-2" aria-selected="false">Html</a>
+                                        </li>
+                                        <!-- <span class="badge badge-md badge-primary copy-docs">Copy</span> -->
+                                    </ul>
+                                </div>
+                                <!-- End of Tab Nav -->
+                                <div class="card border-0">
+                                    <div class="card-body bg-secondary">
+                                        <div class="tab-content bg-secondary">
+                                            <div class="tab-pane fade show active" id="tabs-tabs-1" role="tabpanel"
+                                                aria-labelledby="tabs-tabs-1">
+                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" id="home-tab" data-toggle="tab"
+                                                            href="#home" role="tab" aria-controls="home"
+                                                            aria-selected="true">Programs</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="profile-tab" data-toggle="tab"
+                                                            href="#profile" role="tab" aria-controls="profile"
+                                                            aria-selected="false">Control Panel</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="contact-tab" data-toggle="tab"
+                                                            href="#contact" role="tab" aria-controls="contact"
+                                                            aria-selected="false">Documents</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="contact-tab" data-toggle="tab"
+                                                            href="#contact" role="tab" aria-controls="contact"
+                                                            aria-selected="false">Program Manager</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-pane show active" id="home" role="tabpanel"
+                                                        aria-labelledby="home-tab">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                            Soluta voluptatem
+                                                            nam ut temporibus corporis dolorem dolores accusamus
+                                                            deserunt veniam eius
+                                                            maiores suscipit veritatis necessitatibus voluptatum
+                                                            incidunt repellendus
+                                                            eligendi, consequatur rem?</p>
+                                                        <button class="btn btn-sm mr-2 btn-primary border-dark"
+                                                            type="button">
+                                                            <span class="btn-text">Show Other Options</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="tab-pane" id="profile" role="tabpanel"
+                                                        aria-labelledby="profile-tab">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                            Consequatur earum
+                                                            consequuntur accusamus reprehenderit quae sint, quia
+                                                            eligendi sed quidem
+                                                            neque omnis odit suscipit dolorum corrupti minima quas
+                                                            temporibus recusandae
+                                                            vel.</p>
+                                                        <button class="btn btn-sm mr-2 btn-secondary border-dark"
+                                                            type="button">
+                                                            <span class="btn-text">Show Other Options</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="tab-pane" id="contact" role="tabpanel"
+                                                        aria-labelledby="contact-tab">
+                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
+                                                            ad tempora, quam
+                                                            quisquam, neque possimus ducimus eligendi cumque ipsum autem
+                                                            nam magnam
+                                                            atque, ipsam sint inventore repellat iste sunt harum!</p>
+                                                        <button class="btn btn-sm mr-2 btn-tertiary border-dark"
+                                                            type="button">
+                                                            <span class="btn-text">Show Other Options</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tabs-tabs-2" role="tabpanel"
+                                                aria-labelledby="tabs-tabs-2">
+                                                <div>
+                                                    <pre class="bg-secondary language-html">
+                                <code class="language-html bg-secondary">
+&#x3C;ul class=&#x22;nav nav-tabs&#x22; id=&#x22;myTab&#x22; role=&#x22;tablist&#x22;&#x3E;
+    &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
+        &#x3C;a class=&#x22;nav-link active&#x22; id=&#x22;home-tab&#x22; data-toggle=&#x22;tab&#x22; href=&#x22;../#home&#x22;
+            role=&#x22;tab&#x22; aria-controls=&#x22;home&#x22; aria-selected=&#x22;true&#x22;&#x3E;Programs&#x3C;/a&#x3E;
+    &#x3C;/li&#x3E;
+    &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
+        &#x3C;a class=&#x22;nav-link&#x22; id=&#x22;profile-tab&#x22; data-toggle=&#x22;tab&#x22; href=&#x22;../#profile&#x22;
+            role=&#x22;tab&#x22; aria-controls=&#x22;profile&#x22; aria-selected=&#x22;false&#x22;&#x3E;Control Panel&#x3C;/a&#x3E;
+    &#x3C;/li&#x3E;
+    &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
+        &#x3C;a class=&#x22;nav-link&#x22; id=&#x22;contact-tab&#x22; data-toggle=&#x22;tab&#x22; href=&#x22;../#contact&#x22;
+            role=&#x22;tab&#x22; aria-controls=&#x22;contact&#x22; aria-selected=&#x22;false&#x22;&#x3E;Documents&#x3C;/a&#x3E;
+    &#x3C;/li&#x3E;
+    &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
+        &#x3C;a class=&#x22;nav-link&#x22; id=&#x22;contact-tab&#x22; data-toggle=&#x22;tab&#x22; href=&#x22;../#contact&#x22;
+            role=&#x22;tab&#x22; aria-controls=&#x22;contact&#x22; aria-selected=&#x22;false&#x22;&#x3E;Program Manager&#x3C;/a&#x3E;
+    &#x3C;/li&#x3E;
+&#x3C;/ul&#x3E;
+&#x3C;div class=&#x22;tab-content&#x22; id=&#x22;myTabContent&#x22;&#x3E;
+    &#x3C;div class=&#x22;tab-pane show active&#x22; id=&#x22;home&#x22; role=&#x22;tabpanel&#x22;
+        aria-labelledby=&#x22;home-tab&#x22;&#x3E;
+        &#x3C;p&#x3E;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta voluptatem
+            nam ut temporibus corporis dolorem dolores accusamus deserunt veniam eius
+            maiores suscipit veritatis necessitatibus voluptatum incidunt repellendus
+            eligendi, consequatur rem?&#x3C;/p&#x3E;
+        &#x3C;button class=&#x22;btn btn-sm mr-2 btn-primary border-dark&#x22; type=&#x22;button&#x22;&#x3E;
+            &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Show Other Options&#x3C;/span&#x3E;
+        &#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;tab-pane&#x22; id=&#x22;profile&#x22; role=&#x22;tabpanel&#x22; aria-labelledby=&#x22;profile-tab&#x22;&#x3E;
+        &#x3C;p&#x3E;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur earum
+            consequuntur accusamus reprehenderit quae sint, quia eligendi sed quidem
+            neque omnis odit suscipit dolorum corrupti minima quas temporibus recusandae
+            vel.&#x3C;/p&#x3E;
+        &#x3C;button class=&#x22;btn btn-sm mr-2 btn-secondary border-dark&#x22; type=&#x22;button&#x22;&#x3E;
+            &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Show Other Options&#x3C;/span&#x3E;
+        &#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;tab-pane&#x22; id=&#x22;contact&#x22; role=&#x22;tabpanel&#x22; aria-labelledby=&#x22;contact-tab&#x22;&#x3E;
+        &#x3C;p&#x3E;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ad tempora, quam
+            quisquam, neque possimus ducimus eligendi cumque ipsum autem nam magnam
+            atque, ipsam sint inventore repellat iste sunt harum!&#x3C;/p&#x3E;
+        &#x3C;button class=&#x22;btn btn-sm mr-2 btn-tertiary border-dark&#x22; type=&#x22;button&#x22;&#x3E;
+            &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Show Other Options&#x3C;/span&#x3E;
+        &#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+                                </code>
+                                                                                            </pre>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
