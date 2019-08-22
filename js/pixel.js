@@ -67,12 +67,6 @@ $(document).ready(function () {
         event.preventDefault();
     });
 
-    //Smooth scroll
-    var scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 500,
-        speedAsDuration: true
-    });
-
     function formatAMPM(date) {
         var hours = date.getHours();
         var minutes = date.getMinutes();
