@@ -18,60 +18,6 @@
 "use strict";
 $(document).ready(function () {
 
-    var $navbarCollapse = $('.navbar-main .collapse');
-
-    // Collapse navigation
-    $navbarCollapse.on('hide.bs.collapse', function () {
-        var $this = $(this);
-        $this.addClass('collapsing-out');
-        $('html, body').css('overflow', 'initial');
-    });
-
-    $navbarCollapse.on('hidden.bs.collapse', function () {
-        var $this = $(this);
-        $this.removeClass('collapsing-out');
-    });
-
-    $navbarCollapse.on('shown.bs.collapse', function () {
-        $('html, body').css('overflow', 'hidden');
-    });
-
-    $('.navbar-main .dropdown').on('hide.bs.dropdown', function () {
-        var $this = $(this).find('.dropdown-menu');
-
-        $this.addClass('close');
-
-        setTimeout(function () {
-            $this.removeClass('close');
-        }, 200);
-
-    });
-
-    // Headroom - show/hide navbar on scroll
-    if ($('.headroom')[0]) {
-        var headroom = new Headroom(document.querySelector("#navbar-main"), {
-            offset: 0,
-            tolerance: {
-                up: 0,
-                down: 0
-            },
-        });
-        headroom.init();
-    }
-
-    // Background images for sections
-    $('[data-background]').each(function () {
-        $(this).css('background-image', 'url(' + $(this).attr('data-background') + ')');
-    });
-
-    $('[data-background-color]').each(function () {
-        $(this).css('background-color', $(this).attr('data-background-color'));
-    });
-
-    $('[data-color]').each(function () {
-        $(this).css('color', $(this).attr('data-color'));
-    });
-
     // Tooltip
     $('[data-toggle="tooltip"]').tooltip();
 
@@ -91,22 +37,6 @@ $(document).ready(function () {
     $('.form-control').on('focus blur', function (e) {
         $(this).parents('.form-group').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));
     }).trigger('blur');
-
-    $(".progress-bar").each(function () {
-        $(this).waypoint(function () {
-            var progressBar = $(".progress-bar");
-            progressBar.each(function (indx) {
-                $(this).css("width", $(this).attr("aria-valuenow") + "%");
-            });
-            $('.progress-bar').css({
-                animation: "animate-positive 3s",
-                opacity: "1"
-            });
-        }, {
-                triggerOnce: true,
-                offset: '90%'
-            });
-    });
 
     // When in viewport
     $('[data-toggle="on-screen"]')[0] && $('[data-toggle="on-screen"]').onScreen({
@@ -143,6 +73,19 @@ $(document).ready(function () {
         speedAsDuration: true
     });
 
+    function formatAMPM(date) {
+        var hours = date.getHours();
+        var minutes = date.getMinutes();
+        var ampm = hours >= 12 ? 'pm' : 'am';
+        hours = hours % 12;
+        hours = hours ? hours : 12; // the hour '0' should be '12'
+        minutes = minutes < 10 ? '0'+minutes : minutes;
+        var strTime = hours + ':' + minutes + ' ' + ampm;
+        return strTime;
+    }
+
+    $('#time').text(formatAMPM(new Date()));
+
     // copy docs
     $('.copy-docs').on('click', function () {
         var $copy = $(this);
@@ -151,7 +94,6 @@ $(document).ready(function () {
 
         var $temp = $('<textarea>');
         $('body').append($temp);
-        console.log(htmlDecoded);
         $temp.val(htmlDecoded).select();
         document.execCommand('copy');
         $temp.remove();

@@ -23,111 +23,23 @@
 
 <body>
     <header class="header-global">
-        <nav id="navbar-main"
-            class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark navbar-theme-secondary headroom">
-            <div class="container position-relative">
-                <a class="navbar-brand mr-lg-5" href="./index.html">
-                    <a href="index.html" class="d-flex align-items-center flex-column text-black">
-                        <span class="icon w95-windows"></span>
+        <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-dark justify-content-between">
+            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link" role="button">
+                        <span class="icon icon-xs w95-windows"></span>
+                        <span class="nav-link-inner-text ml-3 pl-1">Start</span>
                     </a>
-                </a>
-                <div class="navbar-collapse collapse" id="navbar_global">
-                    <div class="navbar-collapse-header">
-                        <div class="row">
-                            <div class="col-6 collapse-brand">
-                                <a href="./index.html">
-                                    <img src="./img/brand/secondary.svg" alt="menuimage">
-                                </a>
-                            </div>
-                            <div class="col-6 collapse-close">
-                                <a href="#navbar_global" role="button" class="fas fa-times" data-toggle="collapse"
-                                    data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"
-                                    aria-label="Toggle navigation"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                                <i class="fas fa-angle-down nav-link-arrow"></i>
-                                <span class="nav-link-inner-text">Pages</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./html/pages/about-startup.html">About Startup</a>
-                                </li>
-                                <li><a class="dropdown-item" href="./html/pages/signin.html">Login</a></li>
-                                <li><a class="dropdown-item" href="./html/pages/contact.html">Contact</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                                <i class="fas fa-angle-down nav-link-arrow"></i>
-                                <span class="nav-link-inner-text">Support</span>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-lg">
-                                <div class="col-auto px-0" data-dropdown-content>
-                                    <div class="list-group list-group-flush">
-                                        <a href="./docs/introduction.html" target="_blank"
-                                            class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
-                                            <span class="icon icon-sm icon-secondary"><i
-                                                    class="fas fa-file-alt"></i></span>
-                                            <div class="ml-4">
-                                                <span class="text-dark d-block">Documentation<span
-                                                        class="badge badge-sm badge-secondary ml-2">v1.0</span></span>
-                                                <span class="small">Examples and guides</span>
-                                            </div>
-                                        </a>
-                                        <a href="https://themesberg.com/contact" target="_blank"
-                                            class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
-                                            <span class="icon icon-sm icon-primary"><i
-                                                    class="fas fa-microphone-alt"></i></span>
-                                            <div class="ml-4">
-                                                <span class="text-dark d-block">Support</span>
-                                                <span class="small">Looking for answers? Ask us!</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="d-flex align-items-center">
-                    <ul class="flex-row list-style-none mr-4 d-none d-sm-flex">
-                        <li class="nav-item mr-3">
-                            <a href="https://twitter.com/themesberg" target="_blank" class="btn btn-link text-white"
-                                data-toggle="tooltip" data-placement="bottom" title="Follow us on Twitter">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item mr-3">
-                            <a href="https://www.facebook.com/themesberg/" target="_blank"
-                                class="btn btn-link text-white" data-toggle="tooltip" data-placement="bottom"
-                                title="Like us on Facebook">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item mr-3">
-                            <a href="https://github.com/themesberg" target="_blank" class="btn btn-link text-white"
-                                data-toggle="tooltip" data-placement="bottom" title="Star us on Github">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://www.youtube.com/channel/UCEl11YeRhWQ-iFS0naimRsA" target="_blank"
-                                class="btn btn-link text-white" data-toggle="tooltip" data-placement="bottom"
-                                title="Watch us on YouTube">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- <a href="https://themesberg.com/product/pixel-lite-free-bootstrap-4-ui-kit" role="button" target="_blank" class="btn btn-primary border-dark ml-lg-3 ">Free Download</a> -->
-                    <button class="navbar-toggler ml-2" type="button" data-toggle="collapse"
-                        data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
+                </li>
+                <li class="nav-item">
+                    <a href="docs/introduction.html" class="nav-link" role="button">
+                        <span class="icon icon-sm w95-help"></span>
+                        <span class="nav-link-inner-text ml-3 pl-1">Documentation</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="time text-center">
+                <span id="time" class="text-uppercase">1:47 PM</span>
             </div>
         </nav>
     </header>
@@ -144,10 +56,13 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Tired of all the new design trends? Fly back in time and use this
-                                        free <span class="text-italic">Windows 95 User Interface Kit</span> to create awesome retro websites. It is based on the latest Bootstrap 4 Framework and you can download it for free by creating an account at <a href="https://themesberg.com/register" target="_blank">Themesberg.com</a>.</p>
+                                    free <span class="text-italic">Windows 95 User Interface Kit</span> to create
+                                    awesome retro websites. It is based on the latest Bootstrap 4 Framework and you can
+                                    download it for free by creating an account at <a
+                                        href="https://themesberg.com/register" target="_blank">Themesberg.com</a>.</p>
                                 <div class="text-center">
-                                    <a href="" target="_blank" class="btn btn-sm mr-2 btn-primary border-dark" role="button"><span
-                                        class="btn-text">Free download</span></a>
+                                    <a href="" target="_blank" class="btn btn-sm mr-2 btn-primary border-dark"
+                                        role="button"><span class="btn-text">Free download</span></a>
                                 </div>
                             </div>
                         </div>
@@ -713,7 +628,8 @@
                                 Default Secondary Card Header Title
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Windows 95 was available on either floppy disks or a CD-ROM. The floppy version shipped with 13 disks.</p>
+                                <p class="card-text">Windows 95 was available on either floppy disks or a CD-ROM. The
+                                    floppy version shipped with 13 disks.</p>
                                 <div class="d-flex mt-3">
                                     <button class="btn btn-sm mr-2 btn-primary border-dark" type="button"><span
                                             class="btn-text">OK</span></button>
@@ -770,58 +686,63 @@
                         <div class="mt-5 mb-5 mt-md-0">
                             <h4>Navbars</h4>
                         </div>
-                        <!-- Primary Navbar -->
-                        <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark navbar-theme-primary mb-4">
-                            <div class="container position-relative">
-                                <a class="navbar-brand mr-lg-5" href="../index.html">
-                                    <img class="navbar-brand-dark" src="img/brand/light.svg" alt="menuimage">
-                                    <img class="navbar-brand-light" src="img/brand/dark.svg" alt="menuimage">
-                                </a>
-                                <div class="navbar-collapse collapse" id="navbar-primary">
-                                    <div class="navbar-collapse-header">
-                                        <div class="row">
-                                            <div class="col-6 collapse-brand">
-                                                <a href="../index.html">
-                                                    <img src="img/brand/secondary.svg" alt="menuimage">
-                                                </a>
-                                            </div>
-                                            <div class="col-6 collapse-close">
-                                                <i class="fas fa-times" data-toggle="collapse" role="button"
-                                                    data-target="#navbar-primary" aria-controls="navbar-primary"
-                                                    aria-expanded="false" aria-label="Toggle navigation"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-                                        <li class="nav-item"><a href="#" class="nav-link">Account</a></li>
-                                        <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
-                                        <li class="nav-item dropdown">
-                                            <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                                                <i class="fas fa-angle-down nav-link-arrow"></i>
-                                                <span class="nav-link-inner-text">Settings</span>
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="../html/sections/about.html">Action
-                                                        1</a></li>
-                                                <li><a class="dropdown-item" href="../html/sections/blog.html">Action
-                                                        2</a></li>
-                                                <li><a class="dropdown-item" href="../html/sections/clients.html">Action
-                                                        3</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="d-flex align-items-center">
-                                    <p class="text-white mb-0">Primary navbar</p>
-                                    <button class="navbar-toggler ml-2" type="button" data-toggle="collapse"
-                                        data-target="#navbar-primary" aria-controls="navbar-primary"
-                                        aria-expanded="false" aria-label="Toggle navigation">
-                                        <span class="navbar-toggler-icon"></span>
-                                    </button>
-                                </div>
+                        <nav class="navbar navbar-expand-lg navbar-dark justify-content-between mb-3">
+                            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link" role="button">
+                                        <span class="icon icon-xs w95-windows"></span>
+                                        <span class="nav-link-inner-text ml-3 pl-1">Start</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="docs/introduction.html" class="nav-link" role="button">
+                                        <span class="icon icon-sm w95-help"></span>
+                                        <span class="nav-link-inner-text ml-3 pl-1">Documentation</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="time text-center">
+                                <span id="time" class="text-uppercase">1:47 PM</span>
                             </div>
                         </nav>
-                        <!-- End of Primary Navbar -->
+                        <nav class="navbar navbar-expand-lg navbar-dark navbar-secondary justify-content-between mb-3">
+                            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link" role="button">
+                                        <span class="icon icon-xs w95-windows"></span>
+                                        <span class="nav-link-inner-text ml-3 pl-1">Start</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="docs/introduction.html" class="nav-link" role="button">
+                                        <span class="icon icon-sm w95-help"></span>
+                                        <span class="nav-link-inner-text ml-3 pl-1">Documentation</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="time text-center">
+                                <span id="time" class="text-uppercase">1:47 PM</span>
+                            </div>
+                        </nav>
+                        <nav class="navbar navbar-expand-lg navbar-dark navbar-tertiary justify-content-between">
+                            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link" role="button">
+                                        <span class="icon icon-xs w95-windows"></span>
+                                        <span class="nav-link-inner-text ml-3 pl-1">Start</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="docs/introduction.html" class="nav-link" role="button">
+                                        <span class="icon icon-sm w95-help"></span>
+                                        <span class="nav-link-inner-text ml-3 pl-1">Documentation</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="time text-center">
+                                <span id="time" class="text-uppercase text-white">1:47 PM</span>
+                            </div>
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -936,7 +857,8 @@
                         <small class="text-uppercase text-muted">Heading 6</small>
                     </div>
                     <div class="col-sm-9">
-                        <h6 class="mb-0">The previous header and this header has to be even longer but we did it finally :) :) :)</h6>
+                        <h6 class="mb-0">The previous header and this header has to be even longer but we did it finally
+                            :) :) :)</h6>
                     </div>
                 </div>
                 <hr class="my-5">
@@ -960,10 +882,11 @@
                         <small class="text-uppercase text-muted">Lead</small>
                     </div>
                     <div class="col-sm-10">
-                        <p class="lead">Ich werde der Anfuhrer eines Unternehmens sein, das Milliarden von Dollar wert ist,
-                                weil ich die Antworten habe. Ich verstehe Kultur. Ich bin der Kern. Ich denke das ist ein
-                                Verantwortung, die ich habe, Moglichkeiten zu schieben, Menschen zu zeigen,
-                                Dies ist das Niveau, auf dem die Dinge sein konnten.</p>
+                        <p class="lead">Ich werde der Anfuhrer eines Unternehmens sein, das Milliarden von Dollar wert
+                            ist,
+                            weil ich die Antworten habe. Ich verstehe Kultur. Ich bin der Kern. Ich denke das ist ein
+                            Verantwortung, die ich habe, Moglichkeiten zu schieben, Menschen zu zeigen,
+                            Dies ist das Niveau, auf dem die Dinge sein konnten.</p>
                     </div>
                 </div>
                 <div class="row py-3 align-items-center">
@@ -972,7 +895,8 @@
                     </div>
                     <div class="col-sm-10">
                         <blockquote class="blockquote">
-                            <p class="mb-0">Sere el lider de una empresa que termina valiendo miles de millones de dolares, porque obtuve las respuestas ...</p>
+                            <p class="mb-0">Sere el lider de una empresa que termina valiendo miles de millones de
+                                dolares, porque obtuve las respuestas ...</p>
                             <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
                                     Title</cite></footer>
                         </blockquote>
@@ -983,7 +907,8 @@
                         <small class="text-uppercase text-muted">Muted text</small>
                     </div>
                     <div class="col-sm-10">
-                        <p class="text-muted mb-0">Voi fi liderul unei companii care ajunge sa valoreze miliarde de dolari, pentru ca am toate raspunsurile...</p>
+                        <p class="text-muted mb-0">Voi fi liderul unei companii care ajunge sa valoreze miliarde de
+                            dolari, pentru ca am toate raspunsurile...</p>
                     </div>
                 </div>
                 <div class="row py-3 align-items-center">
@@ -991,7 +916,8 @@
                         <small class="text-uppercase text-muted">Primary text</small>
                     </div>
                     <div class="col-sm-10">
-                        <p class="text-primary mb-0">Olyan tarsasag vezetoje leszek, amely tobb milliard dollarba kerul, mert megkaptam a valaszokat ...</p>
+                        <p class="text-primary mb-0">Olyan tarsasag vezetoje leszek, amely tobb milliard dollarba kerul,
+                            mert megkaptam a valaszokat ...</p>
                     </div>
                 </div>
                 <div class="row py-3 align-items-center">
@@ -999,7 +925,8 @@
                         <small class="text-uppercase text-muted">Info text</small>
                     </div>
                     <div class="col-sm-10">
-                        <p class="text-info mb-0">Je serai le chef d'une entreprise qui vaudra des milliards de dollars, car j'ai eu les reponses...</p>
+                        <p class="text-info mb-0">Je serai le chef d'une entreprise qui vaudra des milliards de dollars,
+                            car j'ai eu les reponses...</p>
                     </div>
                 </div>
                 <div class="row py-3 align-items-center">
@@ -1007,7 +934,8 @@
                         <small class="text-uppercase text-muted">Success text</small>
                     </div>
                     <div class="col-sm-10">
-                        <p class="text-success mb-0">Saro il leader di un'azienda che finira per valere miliardi di dollari, perche ho avuto le risposte...</p>
+                        <p class="text-success mb-0">Saro il leader di un'azienda che finira per valere miliardi di
+                            dollari, perche ho avuto le risposte...</p>
                     </div>
                 </div>
                 <div class="row py-3 align-items-center">
@@ -1015,7 +943,8 @@
                         <small class="text-uppercase text-muted">Warning text</small>
                     </div>
                     <div class="col-sm-10">
-                        <p class="text-warning mb-0">Eu serei o lider de uma empresa que acaba valendo bilhoes de dolares, porque recebi as respostas...</p>
+                        <p class="text-warning mb-0">Eu serei o lider de uma empresa que acaba valendo bilhoes de
+                            dolares, porque recebi as respostas...</p>
                     </div>
                 </div>
                 <div class="row py-3 align-items-center">
@@ -1023,262 +952,86 @@
                         <small class="text-uppercase text-muted">Danger text</small>
                     </div>
                     <div class="col-sm-10">
-                        <p class="text-danger mb-0">Bede liderem firmy, ktora ostatecznie jest warta miliardy dolarow, poniewaz mam odpowiedzi...</p>
+                        <p class="text-danger mb-0">Bede liderem firmy, ktora ostatecznie jest warta miliardy dolarow,
+                            poniewaz mam odpowiedzi...</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-sm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="mt-5 mb-5 mt-md-0">
-                            <h4>Modals</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <!-- Button Modal -->
-                        <button type="button" class="btn btn-block btn-secondary mb-3" data-toggle="modal"
-                            data-target="#modal-default">Default</button>
-                        <!-- Modal Content -->
-                        <div class="modal fade" id="modal-default" tabindex="-1" role="dialog"
-                            aria-labelledby="modal-default" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h6 class="modal-title" id="modal-title-default">Terms of Service</h6>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>With less than a month to go before the European Union enacts new consumer
-                                            privacy laws for its citizens, companies around the world are updating their
-                                            terms of service agreements to comply.</p>
-                                        <p>The European Union’s General Data Protection Regulation (G.D.P.R.) goes into
-                                            effect on May 25 and is meant to ensure a common set of data rights in the
-                                            European Union. It requires organizations to notify users as
-                                            soon as possible of high-risk data breaches that could personally affect
-                                            them.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-sm btn-secondary">I Got It</button>
-                                        <button type="button" class="btn btn-link text-danger ml-auto"
-                                            data-dismiss="modal">Close</button>
-                                    </div>
+        <!-- Hero -->
+        <section class="section section-lg bg-secondary overflow-hidden z-2">
+            <div class="container z-2">
+                <div class="row justify-content-center pt-6 pt-md-5 pb-0 mb-2">
+                    <div class="col-12 col-xl-8 mb-5">
+                        <div class="card card-secondary">
+                            <div class="card-header text-center">
+                                <span class="icon icon-xs w95-windows"></span>
+                                <span>Windows 95 UI Kit</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-center">Windows 95 UI Kit was created by using our awesome Pixel PRO UI Kit. Get a free demo by clicking <a target="_blank" href="https://themesberg.com/preview/pixel-pro">here</a>.</p>
+                                <div class="text-center">
+                                    <a href="https://themesberg.com/product/pixel-pro-premium-bootstrap-4-ui-kit" target="_blank">
+                                        <img class="w-50 mb-3" src="img/pixel-pro.png" alt="Pixel PRO UI Kit from Themesberg.com">
+                                    </a>
+                                </div>
+                                <div class="text-center">
+                                    <a href="https://themesberg.com/preview/pixel-pro" target="_blank" class="btn btn-sm mr-2 btn-primary border-dark"
+                                        role="button"><span class="btn-text">Live preview</span></a>
                                 </div>
                             </div>
                         </div>
-                        <!-- End of Modal Content -->
                     </div>
-                    <div class="col-md-4">
-                        <!-- Button Modal -->
-                        <button type="button" class="btn btn-block btn-info mb-3" data-toggle="modal"
-                            data-target="#modal-notification">Notification</button>
-                        <!-- Modal Content -->
-                        <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog"
-                            aria-labelledby="modal-notification" aria-hidden="true">
-                            <div class="modal-dialog modal-info modal-dialog-centered" role="document">
-                                <div class="modal-content bg-gradient-secondary">
-                                    <div class="modal-header">
-                                        <p class="modal-title" id="modal-title-notification">A new experience,
-                                            personalized for you.</p>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="py-3 text-center">
-                                            <span class="modal-icon display-1-lg"><i
-                                                    class="far fa-envelope-open"></i></span>
-                                            <h4 class="modal-title my-3">Important message!</h4>
-                                            <p>Do you know that you can assign status and relation to a company right in
-                                                the visit list?.</p>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-sm btn-white">Go to Inbox</button>
-                                    </div>
+                    <div class="col-12 col-xl-8">
+                        <div class="card card-tertiary">
+                            <div class="card-header">
+                                <span class="icon icon-xs w95-folder"></span>
+                                <span class="ml-4">Themesberg</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Brought to you by <a href="https://themesberg.com" target="_blank">Themesberg.com</a>. Join our community for awesome products:</p>
+                                <div class="d-flex mt-3">
+                                    <a href="https://github.com/themesberg" target="_blank" class="btn btn-sm mr-2 btn-primary border-dark" role="button"><span class="btn-text">Github</span></a>
+                                    <a href="https://twitter.com/themesberg" target="_blank" class="btn btn-sm mr-2 btn-primary" role="button"><span class="btn-text">Twitter</span></a>
+                                    <a href="https://www.facebook.com/themesberg/" target="_blank" class="btn btn-sm mr-2 btn-primary" role="button"><span class="btn-text">Facebook</span></a>
+                                    <a href="https://dribbble.com/themesberg" target="_blank" class="btn btn-sm btn-primary" role="button"><span class="btn-text">Dribbble</span></a>
                                 </div>
                             </div>
                         </div>
-                        <!-- End of Modal Content -->
-                    </div>
-                    <div class="col-md-4">
-                        <!-- Button Modal -->
-                        <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal"
-                            data-target="#modal-subscribe">Subscribe</button>
-                        <!-- Modal Content -->
-                        <div class="modal fade" id="modal-subscribe" tabindex="-1" role="dialog"
-                            aria-labelledby="modal-subscribe" aria-hidden="true">
-                            <div class="modal-dialog modal-tertiary modal-dialog-centered modal-lg" role="document">
-                                <div class="modal-content section-image overlay-dark"
-                                    data-background="img/blog/image-7.jpg">
-                                    <div class="modal-header">
-                                        <button type="button" class="close ml-auto" data-dismiss="modal"
-                                            aria-label="Close">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="py-3 text-center">
-                                            <span class="modal-icon display-1-lg"><i
-                                                    class="fas fa-envelope-open-text"></i></span>
-                                            <h4 class="modal-title my-2">Join our 1,360,462 subscribers</h4>
-                                            <p>Get exclusive access to freebies, premium products and news.</p>
-                                            <div class="form-group">
-                                                <div
-                                                    class="d-sm-flex flex-column flex-sm-row mb-3 justify-content-center">
-                                                    <input type="text" placeholder="Enter your email adress here"
-                                                        class="mr-sm-1 mb-2 mb-sm-0 form-control form-control-lg">
-                                                    <button type="submit"
-                                                        class="ml-sm-1 btn btn-secondary">Subscribe</button>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer z-2 mx-auto text-center">
-                                        <p class="text-white">
-                                            We’ll never share your details with third parties.
-                                            <br class="visible-md">View our <a href="#">Privacy Policy</a> for more
-                                            info.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Modal Content -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-sm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="mt-5 mb-5 mt-md-0">
-                            <h4>Tooltips &amp; Popovers</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <small class="d-block text-uppercase font-weight-bold mb-3">Tooltips</small>
-                        <button type="button" class="btn btn-sm btn-primary btn-tooltip" data-toggle="tooltip"
-                            data-placement="left" title="Tooltip on left" data-container="body">On left</button>
-                        <button type="button" class="btn btn-sm btn-primary btn-tooltip" data-toggle="tooltip"
-                            data-placement="top" title="Tooltip on top" data-container="body">On top</button>
-                        <button type="button" class="btn btn-sm btn-primary btn-tooltip" data-toggle="tooltip"
-                            data-placement="bottom" title="Tooltip on bottom" data-container="body">On bottom</button>
-                        <button type="button" class="btn btn-sm btn-primary btn-tooltip" data-toggle="tooltip"
-                            data-placement="right" title="Tooltip on right" data-container="body">On right</button>
-                    </div>
-                    <div class="col-lg-6 mt-4 mt-lg-0">
-                        <small class="d-block text-uppercase font-weight-bold mb-3">Popovers</small>
-                        <button type="button" class="btn btn-sm btn-secondary" data-container="body"
-                            data-original-title="Popover On Left" data-toggle="popover" data-placement="left"
-                            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">On left</button>
-                        <button type="button" class="btn btn-sm btn-secondary" data-container="body"
-                            data-original-title="Popover on Top" data-toggle="popover" data-placement="top"
-                            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">On top</button>
-                        <button type="button" class="btn btn-sm btn-secondary" data-container="body"
-                            data-original-title="Popover on Bottom" data-toggle="popover" data-placement="bottom"
-                            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">On bottom</button>
-                        <button type="button" class="btn btn-sm btn-secondary" data-container="body"
-                            data-original-title="Popover on Right" data-toggle="popover" data-placement="right"
-                            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">On right</button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <!-- Footer -->
-    <footer class="footer bg-dark text-white py-6 overflow-hidden">
-        <div class="container">
-            <div class="content">
-                <div class="row">
-                    <div class="col-md-5">
-                        <a class="footer-brand mr-lg-5" href="./index.html">
-                            <img src="./img/brand/light.svg" alt="Footer logo">
-                        </a>
-                        <p class="mt-4 text-gray">Because every Pixel matters.
-                        </p>
-                        <p class="text-gray">Follow us to get fresh updates and free tutorials:</p>
-                        <ul class="social-buttons mb-5 mb-lg-0">
-                            <li>
-                                <a href="https://twitter.com/themesberg" target="_blank"
-                                    class="btn btn-lg btn-link btn-twitter text-white" data-toggle="tooltip"
-                                    data-placement="top" title="Follow us on Twitter">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/Themesberg-214738555737136/" target="_blank"
-                                    class="btn btn-lg btn-link btn-facebook text-white" data-toggle="tooltip"
-                                    data-placement="top" title="Like us on Facebook">
-                                    <i class="fab fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/themesberg" target="_blank"
-                                    class="btn btn-lg btn-link btn-github text-white" data-toggle="tooltip"
-                                    data-placement="top" title="Star us on Github">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/channel/UCEl11YeRhWQ-iFS0naimRsA" target="_blank"
-                                    class="btn btn-lg btn-link btn-youtube text-white" data-toggle="tooltip"
-                                    data-placement="top" title="Watch tutorials">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-md-2 mb-5 mb-lg-0">
-                        <h6>Themesberg</h6>
-                        <ul class="links-vertical">
-                            <li><a class="text-gray" href="https://themesberg.com/blog" target="_blank">Blog</a></li>
-                            <li><a class="text-gray" href="https://themesberg.com/why-our-themes" target="_blank">Why
-                                    our themes?</a></li>
-                            <li><a class="text-gray" href="https://themesberg.com/about" target="_blank">About Us</a>
-                            </li>
-                            <li><a class="text-gray" href="https://themesberg.com/contact" target="_blank">Contact
-                                    Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-md-3 mb-5 mb-lg-0">
-                        <h6>Other</h6>
-                        <ul class="links-vertical">
-                            <li><a class="text-gray" target="_blank" href="./docs/introduction.html">Documentation
-                                    <span class="badge badge-sm badge-secondary ml-2">v1.0</span></a></li>
-                            <li><a class="text-gray" target="_blank" href="./docs/changelog.html">Changelog</a></li>
-                            <li><a class="text-gray" target="_blank" href="https://themesberg.com/contact">Support</a>
-                            </li>
-                            <li><a class="text-gray" target="_blank" href="https://themesberg.com/licensing">License</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+    <footer>
+        <nav id="navbar-footer"
+            class="navbar navbar-main navbar-expand-lg navbar-dark justify-content-between navbar-footer">
+            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link" role="button">
+                        <span class="icon icon-xs w95-windows"></span>
+                        <span class="nav-link-inner-text ml-3 pl-1">Start</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="docs/introduction.html" class="nav-link" role="button">
+                        <span class="icon icon-sm w95-help"></span>
+                        <span class="nav-link-inner-text ml-3 pl-1">Documentation</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="time text-center">
+                <span id="time" class="text-uppercase">1:47 PM</span>
             </div>
-            <hr>
-            <div class="copyright mt-4 text-center">
-                &#xA9;
-                <script>
-                    document.write(new Date().getFullYear())
-                </script> <a href="https://themesberg.com" target="_blank">Themesberg</a>. All rights reserved.
-            </div>
-        </div>
+        </nav>
     </footer>
-    <!-- End of Footer -->
 
     <!-- Core -->
     <script src="./vendor/jquery/jquery.min.js"></script>
     <script src="./vendor/popper/popper.min.js"></script>
     <script src="./vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="./vendor/headroom/headroom.min.js"></script>
 
     <!-- Vendor JS -->
-    <script src="./vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
     <script src="./vendor/waypoints/jquery.waypoints.min.js"></script>
     <script src="./vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
     <!-- pixel JS -->
