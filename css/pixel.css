@@ -3753,6 +3753,7 @@ button.section-black:focus {
      border-top: 2px solid #BDBDBD;
      border-left: 3px solid #BDBDBD;
      border-right: 3px solid #BDBDBD;
+     border-bottom: 2px solid #bdbdbd;
  }
 
  .card-footer {

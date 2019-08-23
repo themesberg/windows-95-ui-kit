@@ -780,140 +780,388 @@
                             <h4>Forms</h4>
                         </div>
                         <div class="row">
-                            <div class="col-12 col-lg-6 mr-lg-5 mb-4 mb-lg-0">
-                                <div class="mb-4 mb-md-5">
-                                    <h6 class="text-gray">Form Controls</h6>
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between">
-                                    <label for="default" class="mr-3">Default:</label>
-                                    <input id="default" type="text" class="form-control w-75" />
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between">
-                                    <label for="disabled" class="mr-3">Disabled:</label>
-                                    <input id="disabled" type="text" class="form-control w-75" disabled />
-                                </div>
-                                <div class="form-group has-success d-flex align-items-center justify-content-between">
-                                    <label for="success" class="mr-3">Success:</label>
-                                    <input id="success" type="text" class="form-control is-valid w-75" />
-                                </div>
-                                <div class="form-group has-danger d-flex align-items-center justify-content-between">
-                                    <label for="error" class="mr-3">Error:</label>
-                                    <input id="error" type="text" class="form-control is-invalid w-75" />
-                                </div>
-                                <div class="form-group d-flex justify-content-between mb-2">
-                                    <label for="textarea" class="mr-3">Textarea:</label>
-                                    <textarea id="textarea" class="form-control w-75" cols="30" rows="10"></textarea>
-                                </div>
-                                <div class="form-group d-flex justify-content-end mb-4">
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="form-check-input" type="checkbox">
-                                            <span class="form-check-x"></span>
-                                            <span class="form-check-sign"></span>
-                                            I agree to the terms and conditions
-                                        </label>
+                            <div class="col-12">
+                                <h6 class="text-gray">Form controls</h6>
+                                <div class="my-5">
+                                    <!-- Tab Nav -->
+                                    <div class="nav-wrapper position-relative p-0">
+                                        <ul class="nav nav-tabs flex-column flex-md-row" id="tabs-forms-content-1"
+                                            role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-forms-1-tab"
+                                                    data-toggle="tab" href="#tabs-forms-1" role="tab"
+                                                    aria-controls="tabs-forms-1" aria-selected="true">Result</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link mb-sm-3 mb-md-0" id="tabs-forms-2-tab"
+                                                    data-toggle="tab" href="#tabs-forms-2" role="tab"
+                                                    aria-controls="tabs-forms-2" aria-selected="false">Html</a>
+                                            </li>
+                                            <!-- <span class="badge badge-md badge-primary copy-docs">Copy</span> -->
+                                        </ul>
                                     </div>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <div class="d-flex">
-                                        <button class="btn btn-sm mr-3 btn-primary border-dark" type="button">
-                                            <span class="btn-text">Submit</span>
-                                        </button>
-                                        <button class="btn btn-sm btn-primary" type="button">
-                                            <span class="btn-text">Cancel</span>
-                                        </button>
+                                    <!-- End of Tab Nav -->
+                                    <div class="card border-0">
+                                        <div class="card-body bg-white">
+                                            <div class="tab-content bg-white">
+                                                <div class="tab-pane fade show active" id="tabs-forms-1" role="tabpanel"
+                                                    aria-labelledby="tabs-forms-1">
+                                                    <div class="mb-4 mb-md-5">
+                                                        <h6 class="text-gray">Form Controls</h6>
+                                                    </div>
+                                                    <div
+                                                        class="form-group d-flex align-items-center justify-content-between">
+                                                        <label for="default" class="mr-3">Default:</label>
+                                                        <input id="default" type="text" class="form-control w-75" />
+                                                    </div>
+                                                    <div
+                                                        class="form-group d-flex align-items-center justify-content-between">
+                                                        <label for="disabled" class="mr-3">Disabled:</label>
+                                                        <input id="disabled" type="text" class="form-control w-75"
+                                                            disabled />
+                                                    </div>
+                                                    <div
+                                                        class="form-group has-success d-flex align-items-center justify-content-between">
+                                                        <label for="success" class="mr-3">Success:</label>
+                                                        <input id="success" type="text"
+                                                            class="form-control is-valid w-75" />
+                                                    </div>
+                                                    <div
+                                                        class="form-group has-danger d-flex align-items-center justify-content-between">
+                                                        <label for="error" class="mr-3">Error:</label>
+                                                        <input id="error" type="text"
+                                                            class="form-control is-invalid w-75" />
+                                                    </div>
+                                                    <div class="form-group d-flex justify-content-between mb-2">
+                                                        <label for="textarea" class="mr-3">Textarea:</label>
+                                                        <textarea id="textarea" class="form-control w-75" cols="30"
+                                                            rows="10"></textarea>
+                                                    </div>
+                                                    <div class="form-group d-flex justify-content-end mb-4">
+                                                        <div class="form-check">
+                                                            <label class="form-check-label">
+                                                                <input class="form-check-input" type="checkbox">
+                                                                <span class="form-check-x"></span>
+                                                                <span class="form-check-sign"></span>
+                                                                I agree to the terms and conditions
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-end">
+                                                        <div class="d-flex">
+                                                            <button class="btn btn-sm mr-3 btn-primary border-dark"
+                                                                type="button">
+                                                                <span class="btn-text">Submit</span>
+                                                            </button>
+                                                            <button class="btn btn-sm btn-primary" type="button">
+                                                                <span class="btn-text">Cancel</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tabs-forms-2" role="tabpanel"
+                                                    aria-labelledby="tabs-forms-2">
+                                                    <div>
+                                                        <pre class="bg-white language-html">
+                                <code class="language-html bg-white text-dark">
+&#x3C;div class=&#x22;mb-4 mb-md-5&#x22;&#x3E;
+    &#x3C;h6 class=&#x22;text-gray&#x22;&#x3E;Form Controls&#x3C;/h6&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;form-group d-flex align-items-center justify-content-between&#x22;&#x3E;
+    &#x3C;label for=&#x22;default&#x22; class=&#x22;mr-3&#x22;&#x3E;Default:&#x3C;/label&#x3E;
+    &#x3C;input id=&#x22;default&#x22; type=&#x22;text&#x22; class=&#x22;form-control w-75&#x22; /&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;form-group d-flex align-items-center justify-content-between&#x22;&#x3E;
+    &#x3C;label for=&#x22;disabled&#x22; class=&#x22;mr-3&#x22;&#x3E;Disabled:&#x3C;/label&#x3E;
+    &#x3C;input id=&#x22;disabled&#x22; type=&#x22;text&#x22; class=&#x22;form-control w-75&#x22; disabled /&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;form-group has-success d-flex align-items-center justify-content-between&#x22;&#x3E;
+    &#x3C;label for=&#x22;success&#x22; class=&#x22;mr-3&#x22;&#x3E;Success:&#x3C;/label&#x3E;
+    &#x3C;input id=&#x22;success&#x22; type=&#x22;text&#x22; class=&#x22;form-control is-valid w-75&#x22; /&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;form-group has-danger d-flex align-items-center justify-content-between&#x22;&#x3E;
+    &#x3C;label for=&#x22;error&#x22; class=&#x22;mr-3&#x22;&#x3E;Error:&#x3C;/label&#x3E;
+    &#x3C;input id=&#x22;error&#x22; type=&#x22;text&#x22; class=&#x22;form-control is-invalid w-75&#x22; /&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;form-group d-flex justify-content-between mb-2&#x22;&#x3E;
+    &#x3C;label for=&#x22;textarea&#x22; class=&#x22;mr-3&#x22;&#x3E;Textarea:&#x3C;/label&#x3E;
+    &#x3C;textarea id=&#x22;textarea&#x22; class=&#x22;form-control w-75&#x22; cols=&#x22;30&#x22; rows=&#x22;10&#x22;&#x3E;&#x3C;/textarea&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;form-group d-flex justify-content-end mb-4&#x22;&#x3E;
+    &#x3C;div class=&#x22;form-check&#x22;&#x3E;
+        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;checkbox&#x22;&#x3E;
+            &#x3C;span class=&#x22;form-check-x&#x22;&#x3E;&#x3C;/span&#x3E;
+            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+            I agree to the terms and conditions
+        &#x3C;/label&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;d-flex justify-content-end&#x22;&#x3E;
+    &#x3C;div class=&#x22;d-flex&#x22;&#x3E;
+        &#x3C;button class=&#x22;btn btn-sm mr-3 btn-primary border-dark&#x22; type=&#x22;button&#x22;&#x3E;
+            &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Submit&#x3C;/span&#x3E;
+        &#x3C;/button&#x3E;
+        &#x3C;button class=&#x22;btn btn-sm btn-primary&#x22; type=&#x22;button&#x22;&#x3E;
+            &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Cancel&#x3C;/span&#x3E;
+        &#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+                                </code>
+                                                                                            </pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-2 mb-4 mb-lg-0">
-                                <div class="mb-4 mb-md-5">
-                                    <h6 class="text-gray">Checkboxes</h6>
+                            <div class="col-12">
+                                <h6 class="text-gray">Checkboxes</h6>
+                                <div class="my-5">
+                                    <!-- Tab Nav -->
+                                    <div class="nav-wrapper position-relative p-0">
+                                        <ul class="nav nav-tabs flex-column flex-md-row" id="tabs-checkboxes-content-1"
+                                            role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-checkboxes-1-tab"
+                                                    data-toggle="tab" href="#tabs-checkboxes-1" role="tab"
+                                                    aria-controls="tabs-checkboxes-1" aria-selected="true">Result</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link mb-sm-3 mb-md-0" id="tabs-checkboxes-2-tab"
+                                                    data-toggle="tab" href="#tabs-checkboxes-2" role="tab"
+                                                    aria-controls="tabs-checkboxes-2" aria-selected="false">Html</a>
+                                            </li>
+                                            <!-- <span class="badge badge-md badge-primary copy-docs">Copy</span> -->
+                                        </ul>
+                                    </div>
+                                    <!-- End of Tab Nav -->
+                                    <div class="card border-0">
+                                        <div class="card-body bg-white">
+                                            <div class="tab-content bg-white">
+                                                <div class="tab-pane fade show active" id="tabs-checkboxes-1"
+                                                    role="tabpanel" aria-labelledby="tabs-checkboxes-1">
+                                                    <!-- Checkbox -->
+                                                    <div class="form-check">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" type="checkbox">
+                                                            <span class="form-check-x"></span>
+                                                            <span class="form-check-sign"></span>
+                                                            Unchecked
+                                                        </label>
+                                                    </div>
+                                                    <!-- End of Checkbox -->
+                                                    <!-- Checkbox -->
+                                                    <div class="form-check">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" type="checkbox" checked>
+                                                            <span class="form-check-x"></span>
+                                                            <span class="form-check-sign"></span>
+                                                            Checked
+                                                        </label>
+                                                    </div>
+                                                    <!-- End of Checkbox -->
+                                                    <!-- Checkbox -->
+                                                    <div class="form-check disabled">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" type="checkbox" disabled>
+                                                            <span class="form-check-x"></span>
+                                                            <span class="form-check-sign"></span>
+                                                            Disabled Unchecked
+                                                        </label>
+                                                    </div>
+                                                    <!-- End of Checkbox -->
+                                                    <!-- Checkbox -->
+                                                    <div class="form-check disabled">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" type="checkbox" checked
+                                                                disabled>
+                                                            <span class="form-check-x"></span>
+                                                            <span class="form-check-sign"></span>
+                                                            Disabled Checked
+                                                        </label>
+                                                    </div>
+                                                    <!-- End of Checkbox -->
+                                                </div>
+                                                <div class="tab-pane fade" id="tabs-checkboxes-2" role="tabpanel"
+                                                    aria-labelledby="tabs-checkboxes-2">
+                                                    <div>
+                                                        <pre class="bg-white text-dark language-html">
+                                <code class="language-html bg-white">
+&#x3C;!-- Checkbox --&#x3E;
+    &#x3C;div class=&#x22;form-check&#x22;&#x3E;
+        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;checkbox&#x22;&#x3E;
+            &#x3C;span class=&#x22;form-check-x&#x22;&#x3E;&#x3C;/span&#x3E;
+            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+            Unchecked
+        &#x3C;/label&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- End of Checkbox --&#x3E;
+    &#x3C;!-- Checkbox --&#x3E;
+    &#x3C;div class=&#x22;form-check&#x22;&#x3E;
+        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;checkbox&#x22; checked&#x3E;
+            &#x3C;span class=&#x22;form-check-x&#x22;&#x3E;&#x3C;/span&#x3E;
+            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+            Checked
+        &#x3C;/label&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- End of Checkbox --&#x3E;
+    &#x3C;!-- Checkbox --&#x3E;
+    &#x3C;div class=&#x22;form-check disabled&#x22;&#x3E;
+        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;checkbox&#x22; disabled&#x3E;
+            &#x3C;span class=&#x22;form-check-x&#x22;&#x3E;&#x3C;/span&#x3E;
+            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+            Disabled Unchecked
+        &#x3C;/label&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- End of Checkbox --&#x3E;
+    &#x3C;!-- Checkbox --&#x3E;
+    &#x3C;div class=&#x22;form-check disabled&#x22;&#x3E;
+        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;checkbox&#x22; checked disabled&#x3E;
+            &#x3C;span class=&#x22;form-check-x&#x22;&#x3E;&#x3C;/span&#x3E;
+            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+            Disabled Checked
+        &#x3C;/label&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- End of Checkbox --&#x3E;
+                                </code>
+                                                                                            </pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- Checkbox -->
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox">
-                                        <span class="form-check-x"></span>
-                                        <span class="form-check-sign"></span>
-                                        Unchecked
-                                    </label>
-                                </div>
-                                <!-- End of Checkbox -->
-                                <!-- Checkbox -->
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" checked>
-                                        <span class="form-check-x"></span>
-                                        <span class="form-check-sign"></span>
-                                        Checked
-                                    </label>
-                                </div>
-                                <!-- End of Checkbox -->
-                                <!-- Checkbox -->
-                                <div class="form-check disabled">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" disabled>
-                                        <span class="form-check-x"></span>
-                                        <span class="form-check-sign"></span>
-                                        Disabled Unchecked
-                                    </label>
-                                </div>
-                                <!-- End of Checkbox -->
-                                <!-- Checkbox -->
-                                <div class="form-check disabled">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" checked disabled>
-                                        <span class="form-check-x"></span>
-                                        <span class="form-check-sign"></span>
-                                        Disabled Checked
-                                    </label>
-                                </div>
-                                <!-- End of Checkbox -->
                             </div>
-                            <div class="col-12 col-lg-2 mb-4 mb-lg-0">
-                                <div class="mt-4 mb-4 mt-md-0 mb-md-5">
-                                    <h6 class="text-gray">Radios</h6>
+                            <div class="col-12">
+                                <h6 class="text-gray">Radios</h6>
+                                <div class="my-5">
+                                    <!-- Tab Nav -->
+                                    <div class="nav-wrapper position-relative p-0">
+                                        <ul class="nav nav-tabs flex-column flex-md-row" id="tabs-radios-content-1"
+                                            role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-radios-1-tab"
+                                                    data-toggle="tab" href="#tabs-radios-1" role="tab"
+                                                    aria-controls="tabs-radios-1" aria-selected="true">Result</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link mb-sm-3 mb-md-0" id="tabs-radios-2-tab"
+                                                    data-toggle="tab" href="#tabs-radios-2" role="tab"
+                                                    aria-controls="tabs-radios-2" aria-selected="false">Html</a>
+                                            </li>
+                                            <!-- <span class="badge badge-md badge-primary copy-docs">Copy</span> -->
+                                        </ul>
+                                    </div>
+                                    <!-- End of Tab Nav -->
+                                    <div class="card border-0">
+                                        <div class="card-body bg-white">
+                                            <div class="tab-content bg-white">
+                                                <div class="tab-pane fade show active" id="tabs-radios-1"
+                                                    role="tabpanel" aria-labelledby="tabs-radios-1">
+                                                    <!-- Radio -->
+                                                    <div class="form-check form-check-radio">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="exampleRadios" id="exampleRadios1"
+                                                                value="option1">
+                                                            <span class="form-check-sign"></span>
+                                                            Radio is off
+                                                        </label>
+                                                    </div>
+                                                    <!-- End of Radio -->
+                                                    <!-- Radio -->
+                                                    <div class="form-check form-check-radio">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="exampleRadios" id="exampleRadios2" value="option2"
+                                                                checked>
+                                                            <span class="form-check-sign"></span>
+                                                            Radio is on
+                                                        </label>
+                                                    </div>
+                                                    <!-- End of Radio -->
+                                                    <!-- Radio -->
+                                                    <div class="form-check form-check-radio disabled">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="exampleRadios1" id="exampleRadios3"
+                                                                value="option3" disabled>
+                                                            <span class="form-check-sign"></span>
+                                                            Disabled radio is off
+                                                        </label>
+                                                    </div>
+                                                    <!-- End of Radio -->
+                                                    <!-- Radio -->
+                                                    <div class="form-check form-check-radio disabled">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="exampleRadios1" id="exampleRadios4"
+                                                                value="option4" disabled checked>
+                                                            <span class="form-check-sign"></span>
+                                                            Disabled radio is on
+                                                        </label>
+                                                    </div>
+                                                    <!-- End of Radio -->
+                                                </div>
+                                                <div class="tab-pane fade" id="tabs-radios-2" role="tabpanel"
+                                                    aria-labelledby="tabs-radios-2">
+                                                    <div>
+                                                        <pre class="bg-white text-dark language-html">
+                                    <code class="language-html bg-white text-dark">
+&#x3C;!-- Radio --&#x3E;
+    &#x3C;div class=&#x22;form-check form-check-radio&#x22;&#x3E;
+        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios&#x22;
+                id=&#x22;exampleRadios1&#x22; value=&#x22;option1&#x22;&#x3E;
+            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+            Radio is off
+        &#x3C;/label&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- End of Radio --&#x3E;
+    &#x3C;!-- Radio --&#x3E;
+    &#x3C;div class=&#x22;form-check form-check-radio&#x22;&#x3E;
+        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios&#x22;
+                id=&#x22;exampleRadios2&#x22; value=&#x22;option2&#x22; checked&#x3E;
+            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+            Radio is on
+        &#x3C;/label&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- End of Radio --&#x3E;
+    &#x3C;!-- Radio --&#x3E;
+    &#x3C;div class=&#x22;form-check form-check-radio disabled&#x22;&#x3E;
+        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios1&#x22;
+                id=&#x22;exampleRadios3&#x22; value=&#x22;option3&#x22; disabled&#x3E;
+            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+            Disabled radio is off
+        &#x3C;/label&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- End of Radio --&#x3E;
+    &#x3C;!-- Radio --&#x3E;
+    &#x3C;div class=&#x22;form-check form-check-radio disabled&#x22;&#x3E;
+        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios1&#x22;
+                id=&#x22;exampleRadios4&#x22; value=&#x22;option4&#x22; disabled checked&#x3E;
+            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+            Disabled radio is on
+        &#x3C;/label&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- End of Radio --&#x3E;
+                                    </code>
+                                                                                                </pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- Radio -->
-                                <div class="form-check form-check-radio">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="exampleRadios"
-                                            id="exampleRadios1" value="option1">
-                                        <span class="form-check-sign"></span>
-                                        Radio is off
-                                    </label>
-                                </div>
-                                <!-- End of Radio -->
-                                <!-- Radio -->
-                                <div class="form-check form-check-radio">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="exampleRadios"
-                                            id="exampleRadios2" value="option2" checked>
-                                        <span class="form-check-sign"></span>
-                                        Radio is on
-                                    </label>
-                                </div>
-                                <!-- End of Radio -->
-                                <!-- Radio -->
-                                <div class="form-check form-check-radio disabled">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="exampleRadios1"
-                                            id="exampleRadios3" value="option3" disabled>
-                                        <span class="form-check-sign"></span>
-                                        Disabled radio is off
-                                    </label>
-                                </div>
-                                <!-- End of Radio -->
-                                <!-- Radio -->
-                                <div class="form-check form-check-radio disabled">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="exampleRadios1"
-                                            id="exampleRadios4" value="option4" disabled checked>
-                                        <span class="form-check-sign"></span>
-                                        Disabled radio is on
-                                    </label>
-                                </div>
-                                <!-- End of Radio -->
                             </div>
                         </div>
                     </div>
@@ -1185,6 +1433,9 @@
                     <div class="col-lg-12">
                         <div class="mt-5 mb-5 mt-md-0">
                             <h4 class="mb-5">Tabs</h4>
+                            <p>Windows 95 UI Kit tabs use the markup of Bootstrap 4 in a perfect order. Check out the <a
+                                    href="https://getbootstrap.com/docs/4.0/components/navs/" target="_blank">tabs
+                                    documentation from Bootstrap 4</a>.</p>
                             <div class="my-5">
                                 <!-- Tab Nav -->
                                 <div class="nav-wrapper position-relative p-0">
@@ -1196,9 +1447,9 @@
                                                 aria-controls="tabs-tabs-1" aria-selected="true">Result</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-tabs-2-tab"
-                                                data-toggle="tab" href="#tabs-tabs-2" role="tab"
-                                                aria-controls="tabs-tabs-2" aria-selected="false">Html</a>
+                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-tabs-2-tab" data-toggle="tab"
+                                                href="#tabs-tabs-2" role="tab" aria-controls="tabs-tabs-2"
+                                                aria-selected="false">Html</a>
                                         </li>
                                         <!-- <span class="badge badge-md badge-primary copy-docs">Copy</span> -->
                                     </ul>
