@@ -24,7 +24,7 @@
 <body>
     <header class="header-global">
         <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-dark justify-content-between">
-            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+            <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                 <li class="nav-item">
                     <a href="../index.html" class="nav-link" role="button">
                         <span class="icon icon-xs w95-windows"></span>
@@ -1177,74 +1177,208 @@
                             <h4 class="text-white">Cards</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                        <div class="card">
-                            <div class="card-header">
-                                Default Primary Card Header Title
+                    <div class="col-12">
+                        <div class="my-5">
+                            <!-- Tab Nav -->
+                            <div class="nav-wrapper position-relative p-0">
+                                <ul class="nav nav-tabs flex-column flex-md-row" id="tabs-cards-content-1"
+                                    role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-cards-1-tab"
+                                            data-toggle="tab" href="#tabs-cards-1" role="tab"
+                                            aria-controls="tabs-cards-1" aria-selected="true">Result</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mb-sm-3 mb-md-0" id="tabs-cards-2-tab" data-toggle="tab"
+                                            href="#tabs-cards-2" role="tab" aria-controls="tabs-cards-2"
+                                            aria-selected="false">Html</a>
+                                    </li>
+                                    <!-- <span class="badge badge-md badge-primary copy-docs">Copy</span> -->
+                                </ul>
                             </div>
-                            <div class="card-body">
-                                <p class="card-text">Windows 95 sold for $89.99 as an upgrade or $179.99 for the full
-                                    version.</p>
-                                <div class="d-flex justify-content-end mt-3">
-                                    <button class="btn btn-sm mr-2 btn-primary border-dark" type="button"><span
-                                            class="btn-text">OK</span></button>
-                                    <button class="btn btn-sm btn-primary" type="button"><span
-                                            class="btn-text">Cancel</span></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 mb-4 mb-lg-5">
-                        <div class="card card-secondary">
-                            <div class="card-header text-center">
-                                <span class="icon icon-xs w95-window-empty"></span>
-                                Default Secondary Card Header Title
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Windows 95 was available on either floppy disks or a CD-ROM. The
-                                    floppy version shipped with 13 disks.</p>
-                                <div class="d-flex mt-3">
-                                    <button class="btn btn-sm mr-2 btn-primary border-dark" type="button"><span
-                                            class="btn-text">OK</span></button>
-                                    <button class="btn btn-sm btn-primary" type="button"><span
-                                            class="btn-text">Cancel</span></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                        <div class="card card-tertiary">
-                            <div class="card-header">
-                                <span class="icon icon-xs w95-folder"></span>
-                                <span class="ml-4">Default Tertiary Card Header Title</span>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">The minimum system requirements called for a 386DX processor, 4MB
-                                    of RAM, and a 120MB hard drive.</p>
-                                <div class="d-flex mt-3">
-                                    <button class="btn btn-sm mr-2 btn-primary border-dark" type="button"><span
-                                            class="btn-text">OK</span></button>
-                                    <button class="btn btn-sm btn-primary" type="button"><span
-                                            class="btn-text">Cancel</span></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                        <div class="card card-tertiary">
-                            <div class="card-header">
-                                Card with white background
-                            </div>
-                            <div class="card-body bg-white">
-                                <p class="card-text">The minimum system requirements called for a 386DX processor, 4MB
-                                    of RAM, and a 120MB hard drive.</p>
-                            </div>
-                            <div class="card-footer">
-                                <div class="d-flex">
-                                    <button class="btn btn-sm mr-2 btn-primary border-dark" type="button"><span
-                                            class="btn-text">OK</span></button>
-                                    <button class="btn btn-sm btn-primary" type="button"><span
-                                            class="btn-text">Cancel</span></button>
+                            <!-- End of Tab Nav -->
+                            <div class="card border-0">
+                                <div class="card-body bg-white">
+                                    <div class="tab-content bg-white">
+                                        <div class="tab-pane fade show active" id="tabs-cards-1" role="tabpanel"
+                                            aria-labelledby="tabs-cards-1">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                                                    <div class="card">
+                                                        <div class="card-header">
+                                                            Default Primary Card Header Title
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <p class="card-text">Windows 95 sold for $89.99 as an
+                                                                upgrade or
+                                                                $179.99 for the full
+                                                                version.</p>
+                                                            <div class="d-flex justify-content-end mt-3">
+                                                                <button class="btn btn-sm mr-2 btn-primary border-dark"
+                                                                    type="button"><span
+                                                                        class="btn-text">OK</span></button>
+                                                                <button class="btn btn-sm btn-primary"
+                                                                    type="button"><span
+                                                                        class="btn-text">Cancel</span></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-6 mb-4 mb-lg-5">
+                                                    <div class="card card-secondary">
+                                                        <div class="card-header text-center">
+                                                            <span class="icon icon-xs w95-window-empty"></span>
+                                                            Default Secondary Card Header Title
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <p class="card-text">Windows 95 was available on either
+                                                                floppy
+                                                                disks or a CD-ROM. The
+                                                                floppy version shipped with 13 disks.</p>
+                                                            <div class="d-flex mt-3">
+                                                                <button class="btn btn-sm mr-2 btn-primary border-dark"
+                                                                    type="button"><span
+                                                                        class="btn-text">OK</span></button>
+                                                                <button class="btn btn-sm btn-primary"
+                                                                    type="button"><span
+                                                                        class="btn-text">Cancel</span></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                                                    <div class="card card-tertiary">
+                                                        <div class="card-header">
+                                                            <span class="icon icon-xs w95-folder"></span>
+                                                            <span class="ml-4">Default Tertiary Card Header Title</span>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <p class="card-text">The minimum system requirements called
+                                                                for
+                                                                a 386DX processor, 4MB
+                                                                of RAM, and a 120MB hard drive.</p>
+                                                            <div class="d-flex mt-3">
+                                                                <button class="btn btn-sm mr-2 btn-primary border-dark"
+                                                                    type="button"><span
+                                                                        class="btn-text">OK</span></button>
+                                                                <button class="btn btn-sm btn-primary"
+                                                                    type="button"><span
+                                                                        class="btn-text">Cancel</span></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                                                    <div class="card card-tertiary">
+                                                        <div class="card-header">
+                                                            Card with white background
+                                                        </div>
+                                                        <div class="card-body bg-white">
+                                                            <p class="card-text">The minimum system requirements called
+                                                                for
+                                                                a 386DX processor, 4MB
+                                                                of RAM, and a 120MB hard drive.</p>
+                                                        </div>
+                                                        <div class="card-footer">
+                                                            <div class="d-flex">
+                                                                <button class="btn btn-sm mr-2 btn-primary border-dark"
+                                                                    type="button"><span
+                                                                        class="btn-text">OK</span></button>
+                                                                <button class="btn btn-sm btn-primary"
+                                                                    type="button"><span
+                                                                        class="btn-text">Cancel</span></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tabs-cards-2" role="tabpanel"
+                                            aria-labelledby="tabs-cards-2">
+                                            <div>
+                                                <pre class="bg-white text-dark language-html">
+                                        <code class="language-html bg-white text-dark">
+&#x3C;div class=&#x22;col-12 col-lg-6 mb-4 mb-lg-0&#x22;&#x3E;
+    &#x3C;div class=&#x22;card&#x22;&#x3E;
+        &#x3C;div class=&#x22;card-header&#x22;&#x3E;
+            Default Primary Card Header Title
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+            &#x3C;p class=&#x22;card-text&#x22;&#x3E;Windows 95 sold for $89.99 as an upgrade or
+                $179.99 for the full
+                version.&#x3C;/p&#x3E;
+            &#x3C;div class=&#x22;d-flex justify-content-end mt-3&#x22;&#x3E;
+                &#x3C;button class=&#x22;btn btn-sm mr-2 btn-primary border-dark&#x22;
+                    type=&#x22;button&#x22;&#x3E;&#x3C;span class=&#x22;btn-text&#x22;&#x3E;OK&#x3C;/span&#x3E;&#x3C;/button&#x3E;
+                &#x3C;button class=&#x22;btn btn-sm btn-primary&#x22; type=&#x22;button&#x22;&#x3E;&#x3C;span
+                        class=&#x22;btn-text&#x22;&#x3E;Cancel&#x3C;/span&#x3E;&#x3C;/button&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;col-12 col-lg-6 mb-4 mb-lg-5&#x22;&#x3E;
+    &#x3C;div class=&#x22;card card-secondary&#x22;&#x3E;
+        &#x3C;div class=&#x22;card-header text-center&#x22;&#x3E;
+            &#x3C;span class=&#x22;icon icon-xs w95-window-empty&#x22;&#x3E;&#x3C;/span&#x3E;
+            Default Secondary Card Header Title
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+            &#x3C;p class=&#x22;card-text&#x22;&#x3E;Windows 95 was available on either floppy
+                disks or a CD-ROM. The
+                floppy version shipped with 13 disks.&#x3C;/p&#x3E;
+            &#x3C;div class=&#x22;d-flex mt-3&#x22;&#x3E;
+                &#x3C;button class=&#x22;btn btn-sm mr-2 btn-primary border-dark&#x22;
+                    type=&#x22;button&#x22;&#x3E;&#x3C;span class=&#x22;btn-text&#x22;&#x3E;OK&#x3C;/span&#x3E;&#x3C;/button&#x3E;
+                &#x3C;button class=&#x22;btn btn-sm btn-primary&#x22; type=&#x22;button&#x22;&#x3E;&#x3C;span
+                        class=&#x22;btn-text&#x22;&#x3E;Cancel&#x3C;/span&#x3E;&#x3C;/button&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;col-12 col-lg-6 mb-4 mb-lg-0&#x22;&#x3E;
+    &#x3C;div class=&#x22;card card-tertiary&#x22;&#x3E;
+        &#x3C;div class=&#x22;card-header&#x22;&#x3E;
+            &#x3C;span class=&#x22;icon icon-xs w95-folder&#x22;&#x3E;&#x3C;/span&#x3E;
+            &#x3C;span class=&#x22;ml-4&#x22;&#x3E;Default Tertiary Card Header Title&#x3C;/span&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card-body&#x22;&#x3E;
+            &#x3C;p class=&#x22;card-text&#x22;&#x3E;The minimum system requirements called for
+                a 386DX processor, 4MB
+                of RAM, and a 120MB hard drive.&#x3C;/p&#x3E;
+            &#x3C;div class=&#x22;d-flex mt-3&#x22;&#x3E;
+                &#x3C;button class=&#x22;btn btn-sm mr-2 btn-primary border-dark&#x22;
+                    type=&#x22;button&#x22;&#x3E;&#x3C;span class=&#x22;btn-text&#x22;&#x3E;OK&#x3C;/span&#x3E;&#x3C;/button&#x3E;
+                &#x3C;button class=&#x22;btn btn-sm btn-primary&#x22; type=&#x22;button&#x22;&#x3E;&#x3C;span
+                        class=&#x22;btn-text&#x22;&#x3E;Cancel&#x3C;/span&#x3E;&#x3C;/button&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;col-12 col-lg-6 mb-4 mb-lg-0&#x22;&#x3E;
+    &#x3C;div class=&#x22;card card-tertiary&#x22;&#x3E;
+        &#x3C;div class=&#x22;card-header&#x22;&#x3E;
+            Card with white background
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card-body bg-white&#x22;&#x3E;
+            &#x3C;p class=&#x22;card-text&#x22;&#x3E;The minimum system requirements called for
+                a 386DX processor, 4MB
+                of RAM, and a 120MB hard drive.&#x3C;/p&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card-footer&#x22;&#x3E;
+            &#x3C;div class=&#x22;d-flex&#x22;&#x3E;
+                &#x3C;button class=&#x22;btn btn-sm mr-2 btn-primary border-dark&#x22;
+                    type=&#x22;button&#x22;&#x3E;&#x3C;span class=&#x22;btn-text&#x22;&#x3E;OK&#x3C;/span&#x3E;&#x3C;/button&#x3E;
+                &#x3C;button class=&#x22;btn btn-sm btn-primary&#x22; type=&#x22;button&#x22;&#x3E;&#x3C;span
+                        class=&#x22;btn-text&#x22;&#x3E;Cancel&#x3C;/span&#x3E;&#x3C;/button&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+                                        </code>
+                                                                                                    </pre>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1288,7 +1422,7 @@
                                             aria-labelledby="tabs-navbars-1">
                                             <nav
                                                 class="navbar navbar-expand-lg navbar-dark justify-content-between mb-3">
-                                                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                                                <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                                                     <li class="nav-item">
                                                         <a href="../index.html" class="nav-link" role="button">
                                                             <span class="icon icon-xs w95-windows"></span>
@@ -1310,7 +1444,7 @@
                                             </nav>
                                             <nav
                                                 class="navbar navbar-expand-lg navbar-dark navbar-secondary justify-content-between mb-3">
-                                                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                                                <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                                                     <li class="nav-item">
                                                         <a href="../index.html" class="nav-link" role="button">
                                                             <span class="icon icon-xs w95-windows"></span>
@@ -1332,7 +1466,7 @@
                                             </nav>
                                             <nav
                                                 class="navbar navbar-expand-lg navbar-dark navbar-tertiary justify-content-between">
-                                                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                                                <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                                                     <li class="nav-item">
                                                         <a href="../index.html" class="nav-link" role="button">
                                                             <span class="icon icon-xs w95-windows"></span>
@@ -1359,7 +1493,7 @@
                                                 <pre class="bg-white language-html">
                         <code class="language-html bg-white text-dark">
 &#x3C;nav class=&#x22;navbar navbar-expand-lg navbar-dark justify-content-between mb-3&#x22;&#x3E;
-    &#x3C;ul class=&#x22;navbar-nav navbar-nav-hover align-items-lg-center&#x22;&#x3E;
+    &#x3C;ul class=&#x22;navbar-nav navbar-nav-hover flex-row align-items-center&#x22;&#x3E;
         &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
             &#x3C;a href=&#x22;../index.html&#x22; class=&#x22;nav-link&#x22; role=&#x22;button&#x22;&#x3E;
                 &#x3C;span class=&#x22;icon icon-xs w95-windows&#x22;&#x3E;&#x3C;/span&#x3E;
@@ -1378,7 +1512,7 @@
     &#x3C;/div&#x3E;
 &#x3C;/nav&#x3E;
 &#x3C;nav class=&#x22;navbar navbar-expand-lg navbar-dark navbar-secondary justify-content-between mb-3&#x22;&#x3E;
-    &#x3C;ul class=&#x22;navbar-nav navbar-nav-hover align-items-lg-center&#x22;&#x3E;
+    &#x3C;ul class=&#x22;navbar-nav navbar-nav-hover flex-row align-items-center&#x22;&#x3E;
         &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
             &#x3C;a href=&#x22;../index.html&#x22; class=&#x22;nav-link&#x22; role=&#x22;button&#x22;&#x3E;
                 &#x3C;span class=&#x22;icon icon-xs w95-windows&#x22;&#x3E;&#x3C;/span&#x3E;
@@ -1397,7 +1531,7 @@
     &#x3C;/div&#x3E;
 &#x3C;/nav&#x3E;
 &#x3C;nav class=&#x22;navbar navbar-expand-lg navbar-dark navbar-tertiary justify-content-between&#x22;&#x3E;
-    &#x3C;ul class=&#x22;navbar-nav navbar-nav-hover align-items-lg-center&#x22;&#x3E;
+    &#x3C;ul class=&#x22;navbar-nav navbar-nav-hover flex-row align-items-center&#x22;&#x3E;
         &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
             &#x3C;a href=&#x22;../index.html&#x22; class=&#x22;nav-link&#x22; role=&#x22;button&#x22;&#x3E;
                 &#x3C;span class=&#x22;icon icon-xs w95-windows&#x22;&#x3E;&#x3C;/span&#x3E;
@@ -1781,16 +1915,16 @@
                                         target="_blank">Themesberg.com</a>. Join our community for awesome products:</p>
                                 <div class="d-flex mt-3">
                                     <a href="https://github.com/themesberg" target="_blank"
-                                        class="btn btn-sm mr-2 btn-primary border-dark" role="button"><span
+                                        class="btn btn-sm mb-2 mb-lg-0 mr-2 btn-primary border-dark" role="button"><span
                                             class="btn-text">Github</span></a>
                                     <a href="https://twitter.com/themesberg" target="_blank"
-                                        class="btn btn-sm mr-2 btn-primary" role="button"><span
+                                        class="btn btn-sm mb-2 mb-lg-0 mr-2 btn-primary" role="button"><span
                                             class="btn-text">Twitter</span></a>
                                     <a href="https://www.facebook.com/themesberg/" target="_blank"
-                                        class="btn btn-sm mr-2 btn-primary" role="button"><span
+                                        class="btn btn-sm mb-2 mb-lg-0 mr-2 btn-primary" role="button"><span
                                             class="btn-text">Facebook</span></a>
                                     <a href="https://dribbble.com/themesberg" target="_blank"
-                                        class="btn btn-sm btn-primary" role="button"><span
+                                        class="btn btn-sm mb-2 mb-lg-0 btn-primary" role="button"><span
                                             class="btn-text">Dribbble</span></a>
                                 </div>
                             </div>
@@ -1803,7 +1937,7 @@
     <footer>
         <nav id="navbar-footer"
             class="navbar navbar-main navbar-expand-lg navbar-dark justify-content-between navbar-footer">
-            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+            <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                 <li class="nav-item">
                     <a href="../index.html" class="nav-link" role="button">
                         <span class="icon icon-xs w95-windows"></span>
