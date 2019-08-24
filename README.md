@@ -19,9 +19,9 @@
 <p>This is an open source project so if you have an idea or would like to perfect the product, feel free to create a PR and we will surely take a look at it!</p>
 <p>Helpful links:</p>
 
-- [Demo](https://themesberg.com/product/windows-95-ui-kit](https://themesberg.com/preview/windows-95-ui-kit)
+- [Demo](https://themesberg.com/preview/windows-95-ui-kit)
 
-- [Download](https://themesberg.com/product/windows-95-ui-kit](https://themesberg.com/product/windows-95-ui-kit)
+- [Download](https://themesberg.com/product/windows-95-ui-kit)
 
 ## What's included
 
