@@ -18,7 +18,9 @@
 <p>Just run npm install to set up all the required dependencies. The Windows 95 Elements were molded with Bootstrap 4 Components and classes to offer an easy way and modern way of working with colors and sizes.</p>
 <p>This is an open source project so if you have an idea or would like to perfect the product, feel free to create a PR and we will surely take a look at it!</p>
 <p>Helpful links:</p>
-- [Demo](https://themesberg.com/product/windows-95-ui-kit](https://themesberg.com/preview/windows-95-ui-kit)
+
+- [Demo](https://themesberg.com/product/windows-95-ui-kit](https://themesberg.com/preview/windows-95-ui-kit))
+
 - [Download](https://themesberg.com/product/windows-95-ui-kit](https://themesberg.com/product/windows-95-ui-kit)
 
 ## What's included
