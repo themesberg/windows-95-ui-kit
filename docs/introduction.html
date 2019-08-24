@@ -23,23 +23,21 @@
 
 <body>
     <header class="header-global">
-        <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-dark justify-content-between">
+        <nav id="navbar-main" class="navbar d-flex flex-row align-items-center navbar-main navbar-expand-lg navbar-dark justify-content-between">
             <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                 <li class="nav-item">
                     <a href="../index.html" class="nav-link" role="button">
-                        <span class="icon icon-xs w95-windows"></span>
-                        <span class="nav-link-inner-text ml-3 pl-1">Start</span>
+                        <span class="nav-link-inner-text">📺 Start</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../docs/introduction.html" class="nav-link" role="button">
-                        <span class="icon icon-sm w95-help"></span>
-                        <span class="nav-link-inner-text ml-3 pl-1">Documentation</span>
+                    <a href="introduction.html" class="nav-link" role="button">
+                        <span class="nav-link-inner-text">📕 Documentation</span>
                     </a>
                 </li>
             </ul>
             <div class="time text-center">
-                <span id="time" class="text-uppercase">1:47 PM</span>
+                <span class="time text-uppercase">1:47 PM</span>
             </div>
         </nav>
     </header>
@@ -51,7 +49,6 @@
                     <div class="col-12 col-xl-7">
                         <div class="card card-tertiary">
                             <div class="card-header text-center">
-                                <span class="icon icon-xs w95-help"></span>
                                 <span>Documentation Windows 95 UI Kit</span>
                             </div>
                             <div class="card-body">
@@ -265,8 +262,6 @@
                             </div>
                         </div>
                         <h6 class="text-gray my-5">Icon Buttons</h6>
-                        <p>The icons are positioned absolutely since we were unable to transform them into icon fonts.
-                            Try to position the text with .ml-3, .ml-4, or .ml-5 which add a margin to the left.</p>
                         <div class="my-5">
                             <!-- Tab Nav -->
                             <div class="nav-wrapper position-relative p-0">
@@ -291,17 +286,14 @@
                                         <div class="tab-pane fade show active" id="tabs-button-7" role="tabpanel"
                                             aria-labelledby="tabs-button-7-tab">
                                             <div class="d-flex align-items-center">
-                                                <button class="btn btn-sm mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon icon-xs w95-windows mr-2"></span>
-                                                    <span class="btn-text">Start</span>
+                                                <button class="btn btn-sm mr-2 mb-2 btn-primary" type="button">
+                                                    <span class="btn-text">📺 Start</span>
                                                 </button>
-                                                <button class="btn mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon icon-sm w95-windows mr-2"></span>
-                                                    <span class="btn-text">Start</span>
+                                                <button class="btn mr-2 mb-2 btn-primary" type="button">
+                                                    <span class="btn-text">📺 Start</span>
                                                 </button>
-                                                <button class="btn btn-lg mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon w95-windows mr-2"></span>
-                                                    <span class="btn-text">Start</span>
+                                                <button class="btn btn-lg mr-2 mb-2 btn-primary" type="button">
+                                                    <span class="btn-text">📺 Start</span>
                                                 </button>
                                             </div>
                                         </div>
@@ -310,462 +302,23 @@
                                             <div>
                                                 <pre class="bg-secondary language-html">
             <code class="language-html">
-&#x3C;button class=&#x22;btn btn-sm mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon icon-xs w95-windows mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Start&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
-&#x3C;button class=&#x22;btn mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon icon-sm w95-windows mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Start&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
-&#x3C;button class=&#x22;btn btn-lg mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon w95-windows mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Start&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
+&#x3C;div class=&#x22;d-flex align-items-center&#x22;&#x3E;
+    &#x3C;button class=&#x22;btn btn-sm mr-2 mb-2 btn-primary&#x22; type=&#x22;button&#x22;&#x3E;
+        &#x3C;span class=&#x22;btn-text&#x22;&#x3E;&#x1F4FA; Start&#x3C;/span&#x3E;
+    &#x3C;/button&#x3E;
+    &#x3C;button class=&#x22;btn mr-2 mb-2 btn-primary&#x22; type=&#x22;button&#x22;&#x3E;
+        &#x3C;span class=&#x22;btn-text&#x22;&#x3E;&#x1F4FA; Start&#x3C;/span&#x3E;
+    &#x3C;/button&#x3E;
+    &#x3C;button class=&#x22;btn btn-lg mr-2 mb-2 btn-primary&#x22; type=&#x22;button&#x22;&#x3E;
+        &#x3C;span class=&#x22;btn-text&#x22;&#x3E;&#x1F4FA; Start&#x3C;/span&#x3E;
+    &#x3C;/button&#x3E;
+&#x3C;/div&#x3E;
             </code>
                                                                         </pre>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="mt-5">
-                            <!-- Tab Nav -->
-                            <div class="nav-wrapper position-relative p-0">
-                                <ul class="nav nav-tabs flex-column flex-md-row" id="tab-button-5" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-button-9-tab"
-                                            data-toggle="tab" href="#tabs-button-9" role="tab"
-                                            aria-controls="tabs-button-9" aria-selected="true">Result</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link mb-sm-3 mb-md-0" id="tabs-button-10-tab" data-toggle="tab"
-                                            href="#tabs-button-10" role="tab" aria-controls="tabs-button-10"
-                                            aria-selected="false">Html</a>
-                                    </li>
-                                    <!-- <span class="badge badge-md badge-primary copy-docs">Copy</span> -->
-                                </ul>
-                            </div>
-                            <!-- End of Tab Nav -->
-                            <div class="card border-0">
-                                <div class="card-body bg-secondary">
-                                    <div class="tab-content bg-secondary" id="tabcontent5">
-                                        <div class="tab-pane fade show active" id="tabs-button-9" role="tabpanel"
-                                            aria-labelledby="tabs-button-9-tab">
-                                            <div class="d-flex align-items-center">
-                                                <button class="btn mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon icon-sm w95-window-empty mr-2"></span>
-                                                    <span class="btn-text">Window</span>
-                                                </button>
-                                                <button class="btn mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon icon-sm w95-text-file mr-2"></span>
-                                                    <span class="btn-text">File</span>
-                                                </button>
-                                                <button class="btn mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon icon-sm w95-trash-bin-empty mr-2"></span>
-                                                    <span class="btn-text">Bin Empty</span>
-                                                </button>
-                                                <button class="btn mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon icon-sm w95-trash-bin-full mr-2"></span>
-                                                    <span class="btn-text">Bin Full</span>
-                                                </button>
-                                                <button class="btn mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon icon-sm w95-blocks mr-2"></span>
-                                                    <span class="btn-text">Blocks</span>
-                                                </button>
-                                                <button class="btn mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon icon-sm w95-tree mr-2"></span>
-                                                    <span class="btn-text">Tree</span>
-                                                </button>
-                                                <button class="btn mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon icon-sm w95-cogs mr-2"></span>
-                                                    <span class="btn-text">Settings</span>
-                                                </button>
-                                                <button class="btn mr-2 mb-2 btn-primary btn-icon" type="button">
-                                                    <span class="icon icon-sm w95-help mr-2"></span>
-                                                    <span class="btn-text">Help Manual</span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane fade" id="tabs-button-10" role="tabpanel"
-                                            aria-labelledby="tabs-button-10-tab">
-                                            <div>
-                                                <pre class="bg-secondary language-html">
-                <code class="language-html">
-&#x3C;button class=&#x22;btn mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon icon-sm w95-window-empty mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Window&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
-&#x3C;button class=&#x22;btn mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon icon-sm w95-text-file mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;File&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
-&#x3C;button class=&#x22;btn mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon icon-sm w95-trash-bin-empty mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Bin Empty&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
-&#x3C;button class=&#x22;btn mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon icon-sm w95-trash-bin-full mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Bin Full&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
-&#x3C;button class=&#x22;btn mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon icon-sm w95-blocks mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Blocks&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
-&#x3C;button class=&#x22;btn mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon icon-sm w95-tree mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Tree&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
-&#x3C;button class=&#x22;btn mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon icon-sm w95-cogs mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Settings&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
-&#x3C;button class=&#x22;btn mr-2 mb-2 btn-primary btn-icon&#x22; type=&#x22;button&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon icon-sm w95-help mr-2&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;btn-text&#x22;&#x3E;Help Manual&#x3C;/span&#x3E;
-&#x3C;/button&#x3E;
-                </code>
-                                                                            </pre>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-sm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="mt-5 mb-5 mt-md-0">
-                            <h4 class="mb-5">Icons</h4>
-                            <p>First of all we would like to give credit to this awesome collection of W95 icons from <a
-                                    href="https://artage.io/en/icon-packs/original-windows-95-icons?li=all"
-                                    target="_blank">artage.io</a>.</p>
-                            <p>You can use the icon independtly from the text below by using a span tag coupled with the
-                                classes .icon and .w95-* (eg. .w95-windows, .w95-help). Change the last part of the
-                                classes based on which icon you would like to use.</p>
-                        </div>
-                        <div class="my-5">
-                            <!-- Tab Nav -->
-                            <div class="nav-wrapper position-relative p-0">
-                                <ul class="nav nav-tabs flex-column flex-md-row" id="tabs-icons-content-1"
-                                    role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-icons-1-tab"
-                                            data-toggle="tab" href="#tabs-icons-1" role="tab"
-                                            aria-controls="tabs-icons-1" aria-selected="true">Result</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-2-tab" data-toggle="tab"
-                                            href="#tabs-icons-2" role="tab" aria-controls="tabs-icons-2"
-                                            aria-selected="false">Html</a>
-                                    </li>
-                                    <!-- <span class="badge badge-md badge-primary copy-docs">Copy</span> -->
-                                </ul>
-                            </div>
-                            <!-- End of Tab Nav -->
-                            <div class="card border-0">
-                                <div class="card-body bg-secondary">
-                                    <div class="tab-content bg-secondary">
-                                        <div class="tab-pane fade show active" id="tabs-icons-1" role="tabpanel"
-                                            aria-labelledby="tabs-icons-1">
-                                            <div class="d-flex">
-                                                <div class="d-flex align-items-center flex-column mr-5">
-                                                    <span class="icon w95-file-alert"></span>
-                                                    <span class="font-xsmall mt-2">.w95-file-alert</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane fade" id="tabs-icons-2" role="tabpanel"
-                                            aria-labelledby="tabs-icons-2">
-                                            <div>
-                                                <pre class="bg-secondary language-html">
-                    <code class="language-html">
-&#x3C;div class=&#x22;d-flex align-items-center flex-column mr-5&#x22;&#x3E;
-    &#x3C;span class=&#x22;icon w95-file-alert&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;font-xsmall mt-2&#x22;&#x3E;.w95-file-alert&#x3C;/span&#x3E;
-&#x3C;/div&#x3E;
-                    </code>
-                                                                                </pre>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-wrap">
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-file-alert"></span>
-                                <span class="font-xsmall mt-2">.w95-file-alert</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-floppy"></span>
-                                <span class="font-xsmall mt-2">.w95-floppy</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-floppy-closed"></span>
-                                <span class="font-xsmall mt-2">.w95-floppy-closed</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-floppy-2"></span>
-                                <span class="font-xsmall mt-2">.w95-floppy-2</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-floppy-3"></span>
-                                <span class="font-xsmall mt-2">.w95-floppy-3</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-printer"></span>
-                                <span class="font-xsmall mt-2">.w95-printer</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-printer-progress"></span>
-                                <span class="font-xsmall mt-2">.w95-printer-progress</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-printer-floppy"></span>
-                                <span class="font-xsmall mt-2">.w95-printer-floppy</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-blocks"></span>
-                                <span class="font-xsmall mt-2">.w95-blocks</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-cd-reader"></span>
-                                <span class="font-xsmall mt-2">.w95-cd-reader</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-text-file"></span>
-                                <span class="font-xsmall mt-2">.w95-text-file</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-text-file-a"></span>
-                                <span class="font-xsmall mt-2">.w95-text-file-a</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-window-wait"></span>
-                                <span class="font-xsmall mt-2">.w95-window-wait</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder-file-transfer"></span>
-                                <span class="font-xsmall mt-2">.w95-folder-file-transfer</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-app-folder-transfer"></span>
-                                <span class="font-xsmall mt-2">.w95-app-folder-transfer</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-file-settings"></span>
-                                <span class="font-xsmall mt-2">.w95-file-settings</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder-settings"></span>
-                                <span class="font-xsmall mt-2">.w95-folder-settings</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder-rename"></span>
-                                <span class="font-xsmall mt-2">.w95-folder-rename</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-trash-bin-folder"></span>
-                                <span class="font-xsmall mt-2">.w95-trash-bin-folder</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-trash-bin-empty"></span>
-                                <span class="font-xsmall mt-2">.w95-trash-bin-empty</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-trash-bin-full"></span>
-                                <span class="font-xsmall mt-2">.w95-trash-bin-full</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-trash-bin-file"></span>
-                                <span class="font-xsmall mt-2">.w95-trash-bin-file</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-trash-bin-file-folder"></span>
-                                <span class="font-xsmall mt-2">.w95-trash-bin-file-folder</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-file-text"></span>
-                                <span class="font-xsmall mt-2">.w95-file-text</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-file-transfer-error"></span>
-                                <span class="font-xsmall mt-2">.w95-file-transfer-error</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-file-settings-icon"></span>
-                                <span class="font-xsmall mt-2">.w95-file-settings-icon</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-floppy-button"></span>
-                                <span class="font-xsmall mt-2">.w95-floppy-button</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder-windows-apps"></span>
-                                <span class="font-xsmall mt-2">.w95-folder-windows-apps</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-multiple-files"></span>
-                                <span class="font-xsmall mt-2">.w95-multiple-files</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder-printer"></span>
-                                <span class="font-xsmall mt-2">.w95-folder-printer</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-windows"></span>
-                                <span class="font-xsmall mt-2">.w95-windows</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-search"></span>
-                                <span class="font-xsmall mt-2">.w95-search</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder"></span>
-                                <span class="font-xsmall mt-2">.w95-folder</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder-open"></span>
-                                <span class="font-xsmall mt-2">.w95-folder-open</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder-letters"></span>
-                                <span class="font-xsmall mt-2">.w95-folder-letters</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder-tools"></span>
-                                <span class="font-xsmall mt-2">.w95-folder-tools</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-music-cd"></span>
-                                <span class="font-xsmall mt-2">.w95-music-cd</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-blue-screen"></span>
-                                <span class="font-xsmall mt-2">.w95-blue-screen</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-tree"></span>
-                                <span class="font-xsmall mt-2">.w95-tree</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-file-printer"></span>
-                                <span class="font-xsmall mt-2">.w95-file-printer</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-file-search"></span>
-                                <span class="font-xsmall mt-2">.w95-file-search</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder-screens"></span>
-                                <span class="font-xsmall mt-2">.w95-folder-screens</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-help"></span>
-                                <span class="font-xsmall mt-2">.w95-help</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-screen-night"></span>
-                                <span class="font-xsmall mt-2">.w95-screen-night</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-arrow-right-upwards"></span>
-                                <span class="font-xsmall mt-2">.w95-arrow-right-upwards</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-cd-reader-open"></span>
-                                <span class="font-xsmall mt-2">.w95-cd-reader-open</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-window-wait-2"></span>
-                                <span class="font-xsmall mt-2">.w95-window-wait-2</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-screen-day"></span>
-                                <span class="font-xsmall mt-2">.w95-screen-day</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-desk"></span>
-                                <span class="font-xsmall mt-2">.w95-desk</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-window-empty"></span>
-                                <span class="font-xsmall mt-2">.w95-window-empty</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-open"></span>
-                                <span class="font-xsmall mt-2">.w95-open</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-hand"></span>
-                                <span class="font-xsmall mt-2">.w95-hand</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-window-folder"></span>
-                                <span class="font-xsmall mt-2">.w95-window-folder</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-globe"></span>
-                                <span class="font-xsmall mt-2">.w95-globe</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-search-file"></span>
-                                <span class="font-xsmall mt-2">.w95-search-file</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-file-text-a"></span>
-                                <span class="font-xsmall mt-2">.w95-file-text-a</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-nodes"></span>
-                                <span class="font-xsmall mt-2">.w95-nodes</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-screen-windows"></span>
-                                <span class="font-xsmall mt-2">.w95-screen-windows</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-cogs"></span>
-                                <span class="font-xsmall mt-2">.w95-cogs</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-multiple-screens"></span>
-                                <span class="font-xsmall mt-2">.w95-multiple-screens</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-folder-files"></span>
-                                <span class="font-xsmall mt-2">.w95-folder-files</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-screens-2"></span>
-                                <span class="font-xsmall mt-2">.w95-screens-2</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-windows-file"></span>
-                                <span class="font-xsmall mt-2">.w95-windows-file</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-floppy-progress"></span>
-                                <span class="font-xsmall mt-2">.w95-floppy-progress</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-component"></span>
-                                <span class="font-xsmall mt-2">.w95-component</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-floppy-error"></span>
-                                <span class="font-xsmall mt-2">.w95-floppy-error</span>
-                            </div>
-                            <div class="d-flex align-items-center flex-column mr-5 mb-5">
-                                <span class="icon w95-cd"></span>
-                                <span class="font-xsmall mt-2">.w95-cd</span>
                             </div>
                         </div>
                     </div>
@@ -988,7 +541,7 @@
                                                     aria-labelledby="tabs-checkboxes-2">
                                                     <div>
                                                         <pre class="bg-white text-dark language-html">
-                                <code class="language-html bg-white">
+                                <code class="language-html bg-white text-dark">
 &#x3C;!-- Checkbox --&#x3E;
     &#x3C;div class=&#x22;form-check&#x22;&#x3E;
         &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
@@ -1115,45 +668,45 @@
                                                         <pre class="bg-white text-dark language-html">
                                     <code class="language-html bg-white text-dark">
 &#x3C;!-- Radio --&#x3E;
-    &#x3C;div class=&#x22;form-check form-check-radio&#x22;&#x3E;
-        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
-            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios&#x22;
-                id=&#x22;exampleRadios1&#x22; value=&#x22;option1&#x22;&#x3E;
-            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
-            Radio is off
-        &#x3C;/label&#x3E;
-    &#x3C;/div&#x3E;
-    &#x3C;!-- End of Radio --&#x3E;
-    &#x3C;!-- Radio --&#x3E;
-    &#x3C;div class=&#x22;form-check form-check-radio&#x22;&#x3E;
-        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
-            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios&#x22;
-                id=&#x22;exampleRadios2&#x22; value=&#x22;option2&#x22; checked&#x3E;
-            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
-            Radio is on
-        &#x3C;/label&#x3E;
-    &#x3C;/div&#x3E;
-    &#x3C;!-- End of Radio --&#x3E;
-    &#x3C;!-- Radio --&#x3E;
-    &#x3C;div class=&#x22;form-check form-check-radio disabled&#x22;&#x3E;
-        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
-            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios1&#x22;
-                id=&#x22;exampleRadios3&#x22; value=&#x22;option3&#x22; disabled&#x3E;
-            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
-            Disabled radio is off
-        &#x3C;/label&#x3E;
-    &#x3C;/div&#x3E;
-    &#x3C;!-- End of Radio --&#x3E;
-    &#x3C;!-- Radio --&#x3E;
-    &#x3C;div class=&#x22;form-check form-check-radio disabled&#x22;&#x3E;
-        &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
-            &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios1&#x22;
-                id=&#x22;exampleRadios4&#x22; value=&#x22;option4&#x22; disabled checked&#x3E;
-            &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
-            Disabled radio is on
-        &#x3C;/label&#x3E;
-    &#x3C;/div&#x3E;
-    &#x3C;!-- End of Radio --&#x3E;
+&#x3C;div class=&#x22;form-check form-check-radio&#x22;&#x3E;
+    &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+        &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios&#x22;
+            id=&#x22;exampleRadios1&#x22; value=&#x22;option1&#x22;&#x3E;
+        &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+        Radio is off
+    &#x3C;/label&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;!-- End of Radio --&#x3E;
+&#x3C;!-- Radio --&#x3E;
+&#x3C;div class=&#x22;form-check form-check-radio&#x22;&#x3E;
+    &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+        &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios&#x22;
+            id=&#x22;exampleRadios2&#x22; value=&#x22;option2&#x22; checked&#x3E;
+        &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+        Radio is on
+    &#x3C;/label&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;!-- End of Radio --&#x3E;
+&#x3C;!-- Radio --&#x3E;
+&#x3C;div class=&#x22;form-check form-check-radio disabled&#x22;&#x3E;
+    &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+        &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios1&#x22;
+            id=&#x22;exampleRadios3&#x22; value=&#x22;option3&#x22; disabled&#x3E;
+        &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+        Disabled radio is off
+    &#x3C;/label&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;!-- End of Radio --&#x3E;
+&#x3C;!-- Radio --&#x3E;
+&#x3C;div class=&#x22;form-check form-check-radio disabled&#x22;&#x3E;
+    &#x3C;label class=&#x22;form-check-label&#x22;&#x3E;
+        &#x3C;input class=&#x22;form-check-input&#x22; type=&#x22;radio&#x22; name=&#x22;exampleRadios1&#x22;
+            id=&#x22;exampleRadios4&#x22; value=&#x22;option4&#x22; disabled checked&#x3E;
+        &#x3C;span class=&#x22;form-check-sign&#x22;&#x3E;&#x3C;/span&#x3E;
+        Disabled radio is on
+    &#x3C;/label&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;!-- End of Radio --&#x3E;
                                     </code>
                                                                                                 </pre>
                                                     </div>
@@ -1227,7 +780,6 @@
                                                 <div class="col-12 col-lg-6 mb-4 mb-lg-5">
                                                     <div class="card card-secondary">
                                                         <div class="card-header text-center">
-                                                            <span class="icon icon-xs w95-window-empty"></span>
                                                             Default Secondary Card Header Title
                                                         </div>
                                                         <div class="card-body">
@@ -1249,8 +801,7 @@
                                                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                                                     <div class="card card-tertiary">
                                                         <div class="card-header">
-                                                            <span class="icon icon-xs w95-folder"></span>
-                                                            <span class="ml-4">Default Tertiary Card Header Title</span>
+                                                            <span>Default Tertiary Card Header Title</span>
                                                         </div>
                                                         <div class="card-body">
                                                             <p class="card-text">The minimum system requirements called
@@ -1425,21 +976,19 @@
                                                 <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                                                     <li class="nav-item">
                                                         <a href="../index.html" class="nav-link" role="button">
-                                                            <span class="icon icon-xs w95-windows"></span>
-                                                            <span class="nav-link-inner-text ml-3 pl-1">Start</span>
+                                                            <span class="nav-link-inner-text">📺 Start</span>
                                                         </a>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a href="../docs/introduction.html" class="nav-link"
                                                             role="button">
-                                                            <span class="icon icon-sm w95-help"></span>
                                                             <span
-                                                                class="nav-link-inner-text ml-3 pl-1">Documentation</span>
+                                                                class="nav-link-inner-text">📕 Documentation</span>
                                                         </a>
                                                     </li>
                                                 </ul>
                                                 <div class="time text-center">
-                                                    <span id="time" class="text-uppercase">1:47 PM</span>
+                                                    <span class="time text-uppercase">1:47 PM</span>
                                                 </div>
                                             </nav>
                                             <nav
@@ -1447,21 +996,19 @@
                                                 <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                                                     <li class="nav-item">
                                                         <a href="../index.html" class="nav-link" role="button">
-                                                            <span class="icon icon-xs w95-windows"></span>
-                                                            <span class="nav-link-inner-text ml-3 pl-1">Start</span>
+                                                            <span class="nav-link-inner-text">📺 Start</span>
                                                         </a>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a href="../docs/introduction.html" class="nav-link"
                                                             role="button">
-                                                            <span class="icon icon-sm w95-help"></span>
                                                             <span
-                                                                class="nav-link-inner-text ml-3 pl-1">Documentation</span>
+                                                                class="nav-link-inner-text">📕 Documentation</span>
                                                         </a>
                                                     </li>
                                                 </ul>
                                                 <div class="time text-center">
-                                                    <span id="time" class="text-uppercase">1:47 PM</span>
+                                                    <span class="time text-uppercase">1:47 PM</span>
                                                 </div>
                                             </nav>
                                             <nav
@@ -1469,21 +1016,19 @@
                                                 <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                                                     <li class="nav-item">
                                                         <a href="../index.html" class="nav-link" role="button">
-                                                            <span class="icon icon-xs w95-windows"></span>
-                                                            <span class="nav-link-inner-text ml-3 pl-1">Start</span>
+                                                            <span class="nav-link-inner-text">📺 Start</span>
                                                         </a>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a href="../docs/introduction.html" class="nav-link"
                                                             role="button">
-                                                            <span class="icon icon-sm w95-help"></span>
                                                             <span
-                                                                class="nav-link-inner-text ml-3 pl-1">Documentation</span>
+                                                                class="nav-link-inner-text">📕 Documentation</span>
                                                         </a>
                                                     </li>
                                                 </ul>
                                                 <div class="time text-center">
-                                                    <span id="time" class="text-uppercase text-white">1:47 PM</span>
+                                                    <span class="time text-uppercase text-white">1:47 PM</span>
                                                 </div>
                                             </nav>
                                         </div>
@@ -1492,61 +1037,64 @@
                                             <div>
                                                 <pre class="bg-white language-html">
                         <code class="language-html bg-white text-dark">
-&#x3C;nav class=&#x22;navbar navbar-expand-lg navbar-dark justify-content-between mb-3&#x22;&#x3E;
+&#x3C;nav
+    class=&#x22;navbar navbar-expand-lg navbar-dark justify-content-between mb-3&#x22;&#x3E;
     &#x3C;ul class=&#x22;navbar-nav navbar-nav-hover flex-row align-items-center&#x22;&#x3E;
         &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
             &#x3C;a href=&#x22;../index.html&#x22; class=&#x22;nav-link&#x22; role=&#x22;button&#x22;&#x3E;
-                &#x3C;span class=&#x22;icon icon-xs w95-windows&#x22;&#x3E;&#x3C;/span&#x3E;
-                &#x3C;span class=&#x22;nav-link-inner-text ml-3 pl-1&#x22;&#x3E;Start&#x3C;/span&#x3E;
+                &#x3C;span class=&#x22;nav-link-inner-text&#x22;&#x3E;&#x1F4FA; Start&#x3C;/span&#x3E;
             &#x3C;/a&#x3E;
         &#x3C;/li&#x3E;
         &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
-            &#x3C;a href=&#x22;../docs/introduction.html&#x22; class=&#x22;nav-link&#x22; role=&#x22;button&#x22;&#x3E;
-                &#x3C;span class=&#x22;icon icon-sm w95-help&#x22;&#x3E;&#x3C;/span&#x3E;
-                &#x3C;span class=&#x22;nav-link-inner-text ml-3 pl-1&#x22;&#x3E;Documentation&#x3C;/span&#x3E;
+            &#x3C;a href=&#x22;../docs/introduction.html&#x22; class=&#x22;nav-link&#x22;
+                role=&#x22;button&#x22;&#x3E;
+                &#x3C;span
+                    class=&#x22;nav-link-inner-text&#x22;&#x3E;&#x1F4D5; Documentation&#x3C;/span&#x3E;
             &#x3C;/a&#x3E;
         &#x3C;/li&#x3E;
     &#x3C;/ul&#x3E;
     &#x3C;div class=&#x22;time text-center&#x22;&#x3E;
-        &#x3C;span id=&#x22;time&#x22; class=&#x22;text-uppercase&#x22;&#x3E;1:47 PM&#x3C;/span&#x3E;
+        &#x3C;span class=&#x22;time text-uppercase&#x22;&#x3E;1:47 PM&#x3C;/span&#x3E;
     &#x3C;/div&#x3E;
 &#x3C;/nav&#x3E;
-&#x3C;nav class=&#x22;navbar navbar-expand-lg navbar-dark navbar-secondary justify-content-between mb-3&#x22;&#x3E;
+&#x3C;nav
+    class=&#x22;navbar navbar-expand-lg navbar-dark navbar-secondary justify-content-between mb-3&#x22;&#x3E;
     &#x3C;ul class=&#x22;navbar-nav navbar-nav-hover flex-row align-items-center&#x22;&#x3E;
         &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
             &#x3C;a href=&#x22;../index.html&#x22; class=&#x22;nav-link&#x22; role=&#x22;button&#x22;&#x3E;
-                &#x3C;span class=&#x22;icon icon-xs w95-windows&#x22;&#x3E;&#x3C;/span&#x3E;
-                &#x3C;span class=&#x22;nav-link-inner-text ml-3 pl-1&#x22;&#x3E;Start&#x3C;/span&#x3E;
+                &#x3C;span class=&#x22;nav-link-inner-text&#x22;&#x3E;&#x1F4FA; Start&#x3C;/span&#x3E;
             &#x3C;/a&#x3E;
         &#x3C;/li&#x3E;
         &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
-            &#x3C;a href=&#x22;../docs/introduction.html&#x22; class=&#x22;nav-link&#x22; role=&#x22;button&#x22;&#x3E;
-                &#x3C;span class=&#x22;icon icon-sm w95-help&#x22;&#x3E;&#x3C;/span&#x3E;
-                &#x3C;span class=&#x22;nav-link-inner-text ml-3 pl-1&#x22;&#x3E;Documentation&#x3C;/span&#x3E;
+            &#x3C;a href=&#x22;../docs/introduction.html&#x22; class=&#x22;nav-link&#x22;
+                role=&#x22;button&#x22;&#x3E;
+                &#x3C;span
+                    class=&#x22;nav-link-inner-text&#x22;&#x3E;&#x1F4D5; Documentation&#x3C;/span&#x3E;
             &#x3C;/a&#x3E;
         &#x3C;/li&#x3E;
     &#x3C;/ul&#x3E;
     &#x3C;div class=&#x22;time text-center&#x22;&#x3E;
-        &#x3C;span id=&#x22;time&#x22; class=&#x22;text-uppercase&#x22;&#x3E;1:47 PM&#x3C;/span&#x3E;
+        &#x3C;span class=&#x22;time text-uppercase&#x22;&#x3E;1:47 PM&#x3C;/span&#x3E;
     &#x3C;/div&#x3E;
 &#x3C;/nav&#x3E;
-&#x3C;nav class=&#x22;navbar navbar-expand-lg navbar-dark navbar-tertiary justify-content-between&#x22;&#x3E;
+&#x3C;nav
+    class=&#x22;navbar navbar-expand-lg navbar-dark navbar-tertiary justify-content-between&#x22;&#x3E;
     &#x3C;ul class=&#x22;navbar-nav navbar-nav-hover flex-row align-items-center&#x22;&#x3E;
         &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
             &#x3C;a href=&#x22;../index.html&#x22; class=&#x22;nav-link&#x22; role=&#x22;button&#x22;&#x3E;
-                &#x3C;span class=&#x22;icon icon-xs w95-windows&#x22;&#x3E;&#x3C;/span&#x3E;
-                &#x3C;span class=&#x22;nav-link-inner-text ml-3 pl-1&#x22;&#x3E;Start&#x3C;/span&#x3E;
+                &#x3C;span class=&#x22;nav-link-inner-text&#x22;&#x3E;&#x1F4FA; Start&#x3C;/span&#x3E;
             &#x3C;/a&#x3E;
         &#x3C;/li&#x3E;
         &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
-            &#x3C;a href=&#x22;../docs/introduction.html&#x22; class=&#x22;nav-link&#x22; role=&#x22;button&#x22;&#x3E;
-                &#x3C;span class=&#x22;icon icon-sm w95-help&#x22;&#x3E;&#x3C;/span&#x3E;
-                &#x3C;span class=&#x22;nav-link-inner-text ml-3 pl-1&#x22;&#x3E;Documentation&#x3C;/span&#x3E;
+            &#x3C;a href=&#x22;../docs/introduction.html&#x22; class=&#x22;nav-link&#x22;
+                role=&#x22;button&#x22;&#x3E;
+                &#x3C;span
+                    class=&#x22;nav-link-inner-text&#x22;&#x3E;&#x1F4D5; Documentation&#x3C;/span&#x3E;
             &#x3C;/a&#x3E;
         &#x3C;/li&#x3E;
     &#x3C;/ul&#x3E;
     &#x3C;div class=&#x22;time text-center&#x22;&#x3E;
-        &#x3C;span id=&#x22;time&#x22; class=&#x22;text-uppercase text-white&#x22;&#x3E;1:47 PM&#x3C;/span&#x3E;
+        &#x3C;span class=&#x22;time text-uppercase text-white&#x22;&#x3E;1:47 PM&#x3C;/span&#x3E;
     &#x3C;/div&#x3E;
 &#x3C;/nav&#x3E;
                         </code>
@@ -1610,11 +1158,6 @@
                                                             href="#contact" role="tab" aria-controls="contact"
                                                             aria-selected="false">Documents</a>
                                                     </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" id="contact-tab" data-toggle="tab"
-                                                            href="#contact" role="tab" aria-controls="contact"
-                                                            aria-selected="false">Program Manager</a>
-                                                    </li>
                                                 </ul>
                                                 <div class="tab-content" id="myTabContent">
                                                     <div class="tab-pane show active" id="home" role="tabpanel"
@@ -1676,10 +1219,6 @@
     &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
         &#x3C;a class=&#x22;nav-link&#x22; id=&#x22;contact-tab&#x22; data-toggle=&#x22;tab&#x22; href=&#x22;../#contact&#x22;
             role=&#x22;tab&#x22; aria-controls=&#x22;contact&#x22; aria-selected=&#x22;false&#x22;&#x3E;Documents&#x3C;/a&#x3E;
-    &#x3C;/li&#x3E;
-    &#x3C;li class=&#x22;nav-item&#x22;&#x3E;
-        &#x3C;a class=&#x22;nav-link&#x22; id=&#x22;contact-tab&#x22; data-toggle=&#x22;tab&#x22; href=&#x22;../#contact&#x22;
-            role=&#x22;tab&#x22; aria-controls=&#x22;contact&#x22; aria-selected=&#x22;false&#x22;&#x3E;Program Manager&#x3C;/a&#x3E;
     &#x3C;/li&#x3E;
 &#x3C;/ul&#x3E;
 &#x3C;div class=&#x22;tab-content&#x22; id=&#x22;myTabContent&#x22;&#x3E;
@@ -1882,7 +1421,6 @@
                     <div class="col-12 col-xl-8 mb-5">
                         <div class="card card-secondary">
                             <div class="card-header text-center">
-                                <span class="icon icon-xs w95-windows"></span>
                                 <span>Windows 95 UI Kit</span>
                             </div>
                             <div class="card-body">
@@ -1907,8 +1445,7 @@
                     <div class="col-12 col-xl-8">
                         <div class="card card-tertiary">
                             <div class="card-header">
-                                <span class="icon icon-xs w95-tree"></span>
-                                <span class="ml-4">Themesberg</span>
+                                <span>Themesberg</span>
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Brought to you by <a href="https://themesberg.com"
@@ -1940,26 +1477,22 @@
             <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                 <li class="nav-item">
                     <a href="../index.html" class="nav-link" role="button">
-                        <span class="icon icon-xs w95-windows"></span>
-                        <span class="nav-link-inner-text ml-3 pl-1">Start</span>
+                        <span class="nav-link-inner-text">📺 Start</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../docs/introduction.html" class="nav-link" role="button">
-                        <span class="icon icon-sm w95-help"></span>
-                        <span class="nav-link-inner-text ml-3 pl-1">Documentation</span>
+                    <a href="introduction.html" class="nav-link" role="button">
+                        <span class="nav-link-inner-text">📕 Documentation</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://themesberg.com/product/windows-95-ui-kit" target="_blank" class="nav-link"
-                        role="button">
-                        <span class="icon icon-sm w95-folder-file-transfer"></span>
-                        <span class="nav-link-inner-text ml-3 pl-2">Download</span>
+                    <a href="https://themesberg.com/product/windows-95-ui-kit" target="_blank" class="nav-link" role="button">
+                        <span class="nav-link-inner-text">Download</span>
                     </a>
                 </li>
             </ul>
             <div class="time text-center">
-                <span id="time" class="text-uppercase">1:47 PM</span>
+                <span class="time text-uppercase">1:47 PM</span>
             </div>
         </nav>
     </footer>

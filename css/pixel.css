@@ -2645,6 +2645,10 @@ button.section-black:focus {
     color: #000;
 }
 
+.btn .btn-text {
+    border: 1px solid transparent;
+}
+
 .btn:not(:disabled):not(.disabled):active .btn-text,
 .btn:not(:disabled):not(.disabled):active:focus .btn-text {
     border: 1px dotted #000;
