@@ -1,31 +1,33 @@
+
 <p align="center">
   <a href="https://themesberg.com/product/pixel-lite-free-bootstrap-4-ui-kit" alt="Themesberg Logo">
     <img height="20" src="https://themesberg.com/img/brand/themesberg-logo-full.svg">
   </a>
 </p>
-<h1 align="center">Pixel Lite - Free Bootstrap 4 UI Kit</h1>
+<h1 align="center">Windows 95 UI Kit</h1>
 
-<p align="center"><b>100+</b> Premium Bootstrap 4 Components, </b>3</b> Example Pages, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files and made for <b>awesome developers</b> just like you. It's <strong>Free</strong>.</p>
+<p align="center"><b>30+</b> authentic Windows 95 components, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files and made for <b>awesome developers</b> just like you. It's <strong>Free</strong>.</p>
 
 <p align="center">
-    <a href="https://themesberg.com/preview/pixel-lite/" align="center" alt="Pixel Lite Free Bootstrap 4 UI Kit">
-        <img width="500" align="center" src="https://themesberg.com/previews/images/pixel-lite/github/pixel-lite-preview.jpg">
+    <a href="https://themesberg.com/preview/windows-95-ui-kit/" align="center" alt="Windows 95 UI Kit">
+        <img width="500" align="center" src="https://themesberg.com/previews/images/windows-95-ui-kit/github/windows-95-ui-kit-preview.jpg">
     </a>
 </p>
 
-<p>Pixel Lite Bootstrap 4 UI Kit is a beautifully crafted UI Kit based on Bootstrap 4 Components. This theme was built following Bootstrap's methodologies by the heart. It has 100 components, 3 plugins and 3 example pages.</p>
-<p>The Kit is Fully Responsive, has 100% valid W3C Pages and has great Google PageSpeed Insights scores.</p>
-<p>If you like the free kit, you can check out the PRO version of Pixel. It has more than 1000 components, 50+ sections and 25+ example pages to use for your awesome projects. Check it out here: <a href="https://themesberg.com/product/pixel-pro-premium-bootstrap-4-ui-kit">Pixel PRO - Premium Bootstrap 4 UI Kit.</a> </p>
-
-<h2>Check out the <a href="https://themesberg.com/preview/pixel-lite/">Online Demo</a>.</h2>
+<p>Windows 95 UI Kit is a free User Interface Kit featuring authentic buttons, cards (windows), tabs, navigation tabs, typography and many more. Use this kit to create awesome retro interfaces.</p>
+<p>Just run npm install to set up all the required dependencies. The Windows 95 Elements were molded with Bootstrap 4 Components and classes to offer an easy way and modern way of working with colors and sizes.</p>
+<p>This is an open source project so if you have an idea or would like to perfect the product, feel free to create a PR and we will surely take a look at it!</p>
+<p>Helpful links:</p>
+[Live preview](https://themesberg.com/preview/windows-95-ui-kit)
+[Download]([https://themesberg.com/product/windows-95-ui-kit](https://themesberg.com/product/windows-95-ui-kit))
 
 ## What's included
 
-Pixel Lite has the following folder structure:
+Windows 95 UI Kit has the following folder structure:
 
 ```
 
-pixel-lite-ui-kit/
+windows-95-ui-kit/
 
 ├── css/
 
@@ -33,23 +35,13 @@ pixel-lite-ui-kit/
 
 ├── docs/
 
-├── html/
-
-│ ├── pages/
-
-│ │ ├── about-startup.html
-
-│ │ ├── contact.html
-
-│ │ ├── signin.html
-
 ├── img/
 
 ├── js/
 
 │ ├── pixel.js
 
-├── vendor/
+├── node_modules/
 
 ├── index.html
 
@@ -57,11 +49,11 @@ pixel-lite-ui-kit/
 
 ### Features
 
-- 100 Unique components
+- Windows 95 button styles
 
-- 3 Example pages
+- Authentic Cards (windows)
 
-- Modern Design
+- Original navigation tab
 
 - Fully Responsive
 
@@ -69,19 +61,13 @@ pixel-lite-ui-kit/
 
 - jQuery
 
-- Header
-
 - Quality code
-
-- Free Logo & Images
-
-- Font Awesome Icons
 
 - and many others..
 
 ### Online documentation
 
-The documentation can be found at [themesberg.com](https://themesberg.com/preview/pixel-lite/docs/introduction.html).
+The documentation can be found at [themesberg.com](https://themesberg.com/preview/windows-95-ui-kit/docs/introduction.html).
 
 ### Built by Themesberg
 
@@ -95,32 +81,12 @@ Our social network profiles:
 
 ## Credits & Libraries
 
-- [Unsplash](https://unsplash.com/)
-
-* [Undraw.co](https://undraw.co/)
-
 - [Bootstrap](https://getbootstrap.com/)
 
 * [jQuery](https://jquery.com/)
 
-* [Bootstrap Tags Inputs](https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/)
-
-- [Headroom.js](https://wicky.nillia.ms/headroom.js/)
-
-* [FontAwesome](https://fontawesome.com/)
-
-- [Google Fonts](https://fonts.google.com/)
-
-* [Popper.js](https://popper.js.org/)
-
-- [Prism.js](https://prismjs.com/)
-
-* [Waypoints](http://imakewebthings.com/waypoints/)
-
-- [SmoothScroll](https://github.com/cferdinandi/smooth-scroll)
-
 ### Licensed under MIT
 
-Pixel Lite UI Kit is Open Source project and licensed under MIT for better Web.
+Windows 95 UI Kit is Open Source project and licensed under MIT for better Web.
 
 ![MIT License](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=for-the-badge)
