@@ -7684,8 +7684,21 @@ a:hover,
 }
 
 .tooltip-inner {
-    box-shadow: 0 0.5rem 1rem rgba(42, 53, 79, 0.12);
+    background-color: #ffffe3;
+    border-radius: 0%;
+    color: #000;
+    border: 1px solid #000;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.75);
 }
 
+.tooltip .arrow:before {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
 
+.tooltip.show {
+    opacity: 1;
+}
 /*# sourceMappingURL=pixel.css.map */
