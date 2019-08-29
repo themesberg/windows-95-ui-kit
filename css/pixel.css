@@ -7684,6 +7684,8 @@ a:hover,
 }
 
 .tooltip-inner {
+    font-family: 'Windows 95', sans-serif;
+    font-size: .6rem;
     background-color: #ffffe3;
     border-radius: 0%;
     color: #000;
@@ -7701,4 +7703,3 @@ a:hover,
 .tooltip.show {
     opacity: 1;
 }
-/*# sourceMappingURL=pixel.css.map */
