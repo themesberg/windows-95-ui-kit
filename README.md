@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://themesberg.com" alt="Themesberg Logo">
-    <img height="20" src="https://themesberg.com/img/brand/themesberg-logo-full.svg">
+    <img height="20" src="https://themesberg.com/img/brand/themesberg-tertiary.svg">
   </a>
 </p>
 <h1 align="center">Windows 95 UI Kit</h1>
@@ -10,7 +10,7 @@
 
 <p align="center">
     <a href="https://themesberg.com/preview/windows-95-ui-kit/" align="center" alt="Windows 95 UI Kit">
-        <img width="500" align="center" src="https://themesberg.com/previews/images/windows-95-ui-kit/github/windows-95-ui-kit-preview.jpg">
+        <img width="500" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/windows-95/windows-95-ui-kit-preview.jpg">
     </a>
 </p>
 

@@ -20,7 +20,8 @@
     "Windows 95 Buttons",
     "Windows 95 Cards",
     "Windows 95 Forms",
-    "Windows 95 Font"
+    "Windows 95 Font",
+    "Windows 95 Tooltips"
   ],
   "author": "Themesberg",
   "license": "MIT",
