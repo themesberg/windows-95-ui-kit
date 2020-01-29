@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://themesberg.com" alt="Themesberg Logo">
-    <img height="20" src="https://themesberg.com/img/brand/themesberg.png">
+    <img height="50" src="https://themesberg.com/img/brand/themesberg.png">
   </a>
 </p>
 <h1 align="center">Windows 95 UI Kit</h1>
