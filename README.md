@@ -1,7 +1,6 @@
-
 <p align="center">
   <a href="https://themesberg.com" alt="Themesberg Logo">
-    <img height="20" src="https://themesberg.com/img/brand/themesberg-tertiary.svg">
+    <img height="50" src="https://themesberg.com/img/brand/themesberg.png">
   </a>
 </p>
 <h1 align="center">Windows 95 UI Kit</h1>
@@ -94,3 +93,4 @@ Our social network profiles:
 Windows 95 UI Kit is Open Source project and licensed under MIT for better Web.
 
 ![MIT License](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=for-the-badge)
+
