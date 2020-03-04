@@ -32,7 +32,7 @@ windows-95-ui-kit/
 
 ├── css/
 
-│ ├── pixel.css
+│ ├── w95.css
 
 ├── docs/
 
@@ -40,7 +40,7 @@ windows-95-ui-kit/
 
 ├── js/
 
-│ ├── pixel.js
+│ ├── w95.js
 
 ├── node_modules/
 
