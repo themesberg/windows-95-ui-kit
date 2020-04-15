@@ -9,7 +9,7 @@
 
 <p align="center">
     <a href="https://demo.themesberg.com/windows-95-ui-kit/" align="center" alt="Windows 95 UI Kit Demo">
-        <img align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/windows-95/windows-95-bootstrap-preview.gif">
+        <img width="700" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/windows-95/windows-95-bootstrap-preview.gif">
     </a>
 </p>
 
@@ -18,7 +18,7 @@
 <p>This is an open source project so if you have an idea or would like to perfect the product, feel free to create a PR and we will surely take a look at it!</p>
 <p>Helpful links:</p>
 
-- [Demo](https://themesberg.com/preview/windows-95-ui-kit)
+- [Demo](https://demo.themesberg.com/windows-95-ui-kit/)
 
 - [Download](https://themesberg.com/product/windows-95-ui-kit)
 
