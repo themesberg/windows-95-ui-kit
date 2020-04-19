@@ -3,7 +3,8 @@
     <img height="50" src="https://themesberg.com/img/brand/themesberg.png">
   </a>
 </p>
-<h1 align="center">Windows 95 UI Kit</h1>
+
+<h1 style="text-align: center"><a href="https://demo.themesberg.com/windows-95-ui-kit/">Windows 95 UI Kit</a></h1>
 
 <p align="center"><b>30+</b> authentic Windows 95 components, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files and made for <b>awesome developers</b> just like you. It's <strong>Free</strong>.</p>
 
@@ -21,6 +22,17 @@
 - [Demo](https://demo.themesberg.com/windows-95-ui-kit/)
 
 - [Download](https://themesberg.com/product/ui-kits/windows-95-ui-kit)
+
+## Quick start
+
+1. Download from [Themesberg](https://themesberg.com/product/ui-kits/windows-95-ui-kit) or `git clone` this repository
+2. Download the project's zip
+3. Make sure you have Node locally installed.
+4. Run the following command to install dependencies:
+
+```npm install```
+
+5. You're good to go!
 
 ## What's included
 
