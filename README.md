@@ -20,7 +20,7 @@
 
 - [Demo](https://demo.themesberg.com/windows-95-ui-kit/)
 
-- [Download](https://themesberg.com/product/windows-95-ui-kit)
+- [Download](https://themesberg.com/product/ui-kits/windows-95-ui-kit)
 
 ## What's included
 
