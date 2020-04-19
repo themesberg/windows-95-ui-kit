@@ -24,7 +24,9 @@
 3. Make sure you have Node locally installed.
 4. Run the following command to install dependencies:
 
-```npm install```
+```
+npm install
+```
 
 5. You're good to go!
 
