@@ -7703,3 +7703,11 @@ a:hover,
 .tooltip.show {
     opacity: 1;
 }
+
+.fmxw-500 {
+    max-width: 500px !important;
+}
+
+.fmxw-400 {
+    max-width: 400px !important;
+}
