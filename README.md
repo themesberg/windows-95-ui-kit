@@ -80,6 +80,10 @@ The documentation can be found at [themesberg.com](https://themesberg.com/previe
 
 ### Built by Themesberg
 
+- [More themes](https://themesberg.com/themes) from Themesberg
+- [Free themes](https://themesberg.com/templates/free) from Themesberg
+- [Bootstrap Themes, Templates & UI Kits](https://themesberg.com/templates/bootstrap) from Themesberg
+
 Our social network profiles:
 
 - [Themesberg.com](https://themesberg.com?ref=github-windows-95-bootstrap)
