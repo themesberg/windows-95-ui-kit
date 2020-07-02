@@ -1,6 +1,6 @@
 <h1 style="text-align: center"><a href="https://demo.themesberg.com/windows-95-ui-kit/">Windows 95 UI Kit</a></h1>
 
-<p><b>30+</b> authentic Windows 95 components, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files and made for <b>awesome developers</b> just like you. It's <strong>Free</strong>.</p>
+<p><b>30+</b> authentic Windows 95 components, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files. It's <strong>Free</strong>.</p>
 
 <p align="center">
     <a href="https://demo.themesberg.com/windows-95-ui-kit/" align="center" alt="Windows 95 UI Kit Demo">
