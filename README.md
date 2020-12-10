@@ -1,7 +1,3 @@
-<a href="https://themesberg.com/cyber-monday?utm_medium=social&utm_source=github&utm_campaign=cm-readme-2020">
-<img border="0" alt="Themesberg Cyber Monday Offer 2020" src="https://themesberg.s3.us-east-2.amazonaws.com/public/campaigns/cyber-monday/2020/thumbnail.png" >
-</a>
-
 <h1 style="text-align: center"><a href="https://demo.themesberg.com/windows-95-ui-kit/">Windows 95 UI Kit</a></h1>
 
 <p><b>30+</b> authentic Windows 95 components, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files. It's <strong>Free</strong>.</p>
