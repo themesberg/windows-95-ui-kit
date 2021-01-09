@@ -1,5 +1,3 @@
-[![Themesberg Winter Sale](https://themesberg.com/img/winter-sale/thumbnail.png)](https://themesberg.com/winter-sale)
-
 <h1 style="text-align: center"><a href="https://demo.themesberg.com/windows-95-ui-kit/">Windows 95 UI Kit</a></h1>
 
 <p><b>30+</b> authentic Windows 95 components, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files. It's <strong>Free</strong>.</p>
