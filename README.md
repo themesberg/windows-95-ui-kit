@@ -15,11 +15,11 @@
 
 - [Demo](https://demo.themesberg.com/windows-95-ui-kit/)
 
-- [Download](https://themesberg.com/product/ui-kits/windows-95-ui-kit?ref=github-windows-95-bootstrap)
+- [Download](https://themesberg.com/product/ui-kit/windows-95-ui-kit?ref=github-windows-95-bootstrap)
 
 ## Quick start
 
-1. Download from [Themesberg](https://themesberg.com/product/ui-kits/windows-95-ui-kit?ref=github-windows-95-bootstrap) or `git clone` this repository
+1. Download from [Themesberg](https://themesberg.com/product/ui-kit/windows-95-ui-kit?ref=github-windows-95-bootstrap) or `git clone` this repository
 2. Download the project's zip
 3. Make sure you have Node locally installed.
 4. Run the following command to install dependencies:

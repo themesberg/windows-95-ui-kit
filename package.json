@@ -16,14 +16,14 @@
     "Windows 95 Tooltips",
     "w95"
   ],
-  "homepage": "https://themesberg.com/product/ui-kits/windows-95-ui-kit",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/themesberg/windows-95-ui-kit"
-    },
-    "bugs": {
-        "email": "support@themesberg.com"
-    },
+  "homepage": "https://themesberg.com/product/ui-kit/windows-95-ui-kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themesberg/windows-95-ui-kit"
+  },
+  "bugs": {
+    "email": "support@themesberg.com"
+  },
   "main": "index.js",
   "directories": {
     "doc": "docs"
