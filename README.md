@@ -1,3 +1,6 @@
+# [Summer Sale 90% Off All Bootstrap Themes 🏖](https://themesberg.com/summer-sale?ref=github)
+[![Summer Sale 90% Off All Bootstrap Themes 🏖](https://themesberg.com/img/campaigns/summer-sale/thumbnail.png)](https://themesberg.com/summer-sale?ref=github)
+
 <h1 style="text-align: center"><a href="https://demo.themesberg.com/windows-95-ui-kit/">Windows 95 UI Kit</a></h1>
 
 <p><b>30+</b> authentic Windows 95 components, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files. It's <strong>Free</strong>.</p>
