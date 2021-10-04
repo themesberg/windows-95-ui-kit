@@ -106,3 +106,13 @@ Windows 95 UI Kit is Open Source project and licensed under MIT for better Web.
 
 ![MIT License](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=for-the-badge)
 
+
+### Donations
+
+If you want to help support this project you can send us Bitcoin or Ethereum to the following addresses:
+
+- Bitcoin address: **bc1qmxvck7jnvwmv0z9xv4lcjsf05dja973v2pn7f5**
+- Ethereum address: **0xcb97e23EBc2262B2ba93bfC5d1e423e08420cAF6**
+
+The money will be used to pay for the hosting plan and other costs that are included to maintain this project.
+
