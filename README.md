@@ -1,6 +1,3 @@
-# [🔥 Black Friday 2021 - Premium Themes 90% Off](https://themesberg.com/black-friday)
-[![Themesberg Black Friday 2021](https://themesberg.com/img/campaigns/black-friday/og-image.png)](https://themesberg.com/black-friday)
-
 <h1 style="text-align: center"><a href="https://demo.themesberg.com/windows-95-ui-kit/">Windows 95 UI Kit</a></h1>
 
 <p><b>30+</b> authentic Windows 95 components, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files. It's <strong>Free</strong>.</p>
